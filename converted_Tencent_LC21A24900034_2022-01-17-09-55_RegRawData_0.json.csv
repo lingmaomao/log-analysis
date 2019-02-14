@@ -1,8 +1,0 @@
-2021-12-28T02:10:24,idl.log,LC21A24900034,InspurDiagnose:,"|2021-12-28T02:10:24+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_MSMI_LVT3_N_Long.| 
-"
-2021-12-28T02:10:24,selelist.csv,"['System Event System_Error', 'Undetermined system hardware failure', 'Asserted\n']"
-2021-12-28T02:10:24,maintenance.log,LC21A24900034,inspur_monitor_app:,"[1143 : 1920 CRITICAL]Analyze CPLD Alert,read CPLD Alert status (byte1-2):byte1=0x20,byte2=0x0,i=5 "
-2021-12-28T02:10:24,maintenance.log,LC21A24900034,InspurDiagnose:,|2021-12-28T02:10:24+08:00|MAINBOARD|Assert|Info|15FFB400|MCE Error   FM_CPU_MSMI_LVT3_N_Pulse.| 
-2021-12-28T02:10:24,maintenance.log,LC21A24900034,inspur_monitor_app:,"[1143 : 1920 CRITICAL]MB ERRORLOG, record 8 bytes.#012now(byte0~7) : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xcd, Byte6=0xff, Byte7=0x4f; #012former : Byte0=0xff, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xff, Byte6=0xff, Byte7=0xff; "
-2021-12-28T02:10:24,maintenance.log,LC21A24900034,InspurMcaDiagnose:,[3294 : 3303 INFO]【MCAProgressTask】Get register start time: 2021-12-28T02:10:24 
-2021-12-28T02:10:24,maintenance.log,LC21A24900034,InspurMcaDiagnose:,[3294 : 3303 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 

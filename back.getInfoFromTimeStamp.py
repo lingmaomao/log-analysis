@@ -32,6 +32,7 @@ def generateLog(filename):
     time_stamp=data[1:20]
     #2022-01-08T09:25:57
 
+    csv_writer.writerow(["time_stamp", logs[0], logs[1], logs[2]])
     #2.extract info use timeStamp
     #get log_dir
     for l in range(len(logs)):
@@ -81,7 +82,7 @@ def generateLog(filename):
             meachine=data_slice[3]
             InspurDiagnose=data_slice[4]
             Diagnose_info=InspurDiagnose+Diagnose_info
-            csv_writer.writerow([time_stamp, logs[l], Diagnose_info])
+            csv_writer.writerow([time_stamp, Diagnose_info, "", ""])
 
         #selelist.csv
         #01/08/2022,09:25:57
@@ -97,7 +98,7 @@ def generateLog(filename):
             print("data_slice[3]:", data_slice[3])
             Diagnose_info=data_slice[3:]
             print("Diagnose_info:", Diagnose_info)
-            csv_writer.writerow([time_stamp, logs[l], Diagnose_info])
+            csv_writer.writerow([time_stamp, "", Diagnose_info, ""])
 
         #maintenance.log
         if l == 2:
@@ -127,9 +128,7 @@ def generateLog(filename):
                 meachine=data_slice[3]
                 InspurDiagnose=data_slice[4]
                 Diagnose_info=InspurDiagnose+Diagnose_info
-                csv_writer.writerow([time_stamp,logs[l], Diagnose_info])
-
-
+                csv_writer.writerow([time_stamp,"","", Diagnose_info])
 
 #cmd='./test-run1.sh '+str(empu_num[l]) + ' ' + str(batch[k1])
 #grep "timestamp" converted_Tencent_FX21B050001PD_2022-01-17-09-55_RegRawData_1.json | awk '{print $2}'

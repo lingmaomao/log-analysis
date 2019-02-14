@@ -1,8 +1,0 @@
-2022-01-06T14:46:26,idl.log,LC21C209000BD,InspurDiagnose:,"|2022-01-06T14:44:28+08:00|SYS RESTART|Assert|Info|1D000000|BMC_Boot_Up System Initiated by power up BMC first boot up| 
-/home/maomao/LOG-analysis/Error_logs/Tencent_LC21C209000BD_2022-01-17-09-51/onekeylog/log/idl.log:270:<166>  2022-01-06T14:46:26.726534+08:00 LC21C209000BD InspurDiagnose:   |2022-01-06T14:45:05+08:00|POWER BUTTON|Assert|Info|14000000|Power_Button Power Button Pressed Happened  Power Button Short Pressed| 
-/home/maomao/LOG-analysis/Error_logs/Tencent_LC21C209000BD_2022-01-17-09-51/onekeylog/log/idl.log:271:<166>  2022-01-06T14:46:26.726534+08:00 LC21C209000BD InspurDiagnose:   |2022-01-06T14:45:06+08:00|SYS RESTART|Assert|Info|1D020000|SysRestart System Initiated by power up  System Restart Cause: power-up via power pushbutton| 
-/home/maomao/LOG-analysis/Error_logs/Tencent_LC21C209000BD_2022-01-17-09-51/onekeylog/log/idl.log:272:<162>  2022-01-06T14:46:26.846534+08:00 LC21C209000BD InspurDiagnose:   |2022-01-06T14:45:06+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_CATERR_LVT3_N_Long.| 
-/home/maomao/LOG-analysis/Error_logs/Tencent_LC21C209000BD_2022-01-17-09-51/onekeylog/log/idl.log:273:<166>  2022-01-06T14:46:26.856534+08:00 LC21C209000BD InspurDiagnose:   |2022-01-06T14:46:36+08:00|ACPI STATUS|Assert|Info|22FF0000|ACPI_PWR S0/G0 working | 
-"
-2022-01-06T14:46:26,maintenance.log,LC21C209000BD,InspurMcaDiagnose:,[2699 : 2709 INFO]【MCAProgressTask】Get register start time: 2022-01-06T14:46:26 
-2022-01-06T14:46:26,maintenance.log,LC21C209000BD,InspurMcaDiagnose:,[2699 : 2709 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 

@@ -1,9 +1,0 @@
-2022-01-16T18:53:53,idl.log,LC21C15800056,InspurDiagnose:,"|2022-01-16T18:53:53+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_MSMI_LVT3_N_Long.| 
-"
-2022-01-16T18:53:53,selelist.csv,"['System Event System_Error', 'Undetermined system hardware failure', 'Asserted\n']"
-2022-01-16T18:53:53,maintenance.log,LC21C15800056,InspurDiagnose:,|2022-01-16T18:53:53+08:00|MAINBOARD|Assert|Info|15FFB400|MCE Error   FM_CPU_CATERR_LVT3_N_Pulse.| 
-2022-01-16T18:53:53,maintenance.log,LC21C15800056,inspur_monitor_app:,"[1125 : 1900 CRITICAL]MB ERRORLOG, record 8 bytes.#012now(byte0~7) : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xd9, Byte6=0xff, Byte7=0x43; #012former : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xff, Byte6=0xff, Byte7=0x1d; "
-2022-01-16T18:53:53,maintenance.log,LC21C15800056,InspurMcaDiagnose:,[3322 : 3332 INFO]【MCAProgressTask】Get register start time: 2022-01-16T18:53:53 
-2022-01-16T18:53:53,maintenance.log,LC21C15800056,InspurMcaDiagnose:,[3322 : 3332 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 
-2022-01-16T18:53:53,maintenance.log,LC21C15800056,inspur_monitor_app:,"[1125 : 1900 CRITICAL]MB ERRORLOG, record 8 bytes.#012now(byte0~7) : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xdd, Byte6=0xff, Byte7=0x3f; #012former : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xd9, Byte6=0xff, Byte7=0x43; "
-2022-01-16T18:53:53,maintenance.log,LC21C15800056,InspurDiagnose:,|2022-01-16T18:53:53+08:00|MAINBOARD|Deassert|Info|15FFB400|MCE Error  .| 

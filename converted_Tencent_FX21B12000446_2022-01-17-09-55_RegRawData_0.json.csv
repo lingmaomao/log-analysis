@@ -1,0 +1,7 @@
+2022-01-04T10:44:47,idl.log,FX21B12000446,InspurDiagnose:,"|2022-01-04T10:44:46+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_CATERR_LVT3_N_Long.| 
+/home/maomao/LOG-analysis/Error_logs/Tencent_FX21B12000446_2022-01-17-09-55/onekeylog/log/idl.log:85:<166>  2022-01-04T10:44:47.791415+08:00 FX21B12000446 InspurDiagnose:   |2022-01-04T10:44:47+08:00|ACPI STATUS|Assert|Info|22FF0000|ACPI_PWR S0/G0 working | 
+"
+2022-01-04T10:44:47,selelist.csv,"['System ACPI Power State ACPI_PWR', 'S0/G0: working', 'Asserted\n']"
+2022-01-04T10:44:47,maintenance.log,FX21B12000446,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0x21 0x80 0x8 0xf1 0xc 0x7 Rsp:0. 
+2022-01-04T10:44:47,maintenance.log,FX21B12000446,InspurMcaDiagnose:,[3409 : 3422 INFO]【MCAProgressTask】Get register start time: 2022-01-04T10:44:47 
+2022-01-04T10:44:47,maintenance.log,FX21B12000446,InspurMcaDiagnose:,[3409 : 3422 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 

@@ -1,0 +1,3 @@
+2021-11-26T11:44:01,idl.log,FX21B0500022R,InspurDiagnose:,"|2021-11-26T11:44:01+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_MSMI_LVT3_N_Long.| 
+"
+2021-11-26T11:44:01,selelist.csv,"['System Event System_Error', 'Undetermined system hardware failure', 'Asserted\n']"

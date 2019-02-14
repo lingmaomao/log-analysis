@@ -1,0 +1,18 @@
+2022-01-12T10:09:50,idl.log,LC21C2290000H,InspurDiagnose:,"|2022-01-12T10:09:50+08:00|SYS RESTART|Assert|Info|1D020000|SysRestart System Initiated by power up  System Restart Cause: power-up via power pushbutton| 
+/home/maomao/LOG-analysis/Error_logs/Tencent_LC21C2290000H_2022-01-17-09-53/onekeylog/log/idl.log:352:<162>  2022-01-12T10:09:50.493298+08:00 LC21C2290000H InspurDiagnose:   |2022-01-12T10:09:50+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_CATERR_LVT3_N_Long.| 
+"
+2022-01-12T10:09:50,selelist.csv,"['System Boot Initiated SysRestart', 'Initiated by power up', 'Asserted\n/home/maomao/LOG-analysis/Error_logs/Tencent_LC21C2290000H_2022-01-17-09-53/onekeylog/log/selelist.csv:110:6d', '01/12/2022', '10:09:50', 'System Event System_Error', 'Undetermined system hardware failure', 'Asserted\n']"
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,inspur_monitor_app:,[1059 : 1503 WARNING]Set GPIO(215)Data:High 
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,inspur_monitor_app:,[1059 : 1503 WARNING]Set GPIO(215)Direction:Input 
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0x1 0xa3 0x81 0x50 0x14 0 Rsp:0. 
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0x1 0xa3 0x81 0x52 0x14 0 Rsp:0. 
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0x1 0xa3 0x81 0x54 0x14 0 Rsp:0. 
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0x1 0xbd 0x81 0x50 0x14 0 Rsp:0. 
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0x1 0xbd 0x81 0x52 0x14 0 Rsp:0. 
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0x1 0xbd 0x81 0x54 0x14 0 Rsp:0. 
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,inspur_monitor_app:,"[1059 : 1507 CRITICAL]Analyze CPLD Alert,read CPLD Alert status (byte1-2):byte1=0x20,byte2=0x0,i=5 "
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,inspur_monitor_app:,"[1059 : 1507 CRITICAL]MB ERRORLOG, record 12 bytes.#012now(byte0~11) : Byte0=0x0b, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xf5, Byte6=0xff, Byte7=0xff, Byte8=0xcf, Byte9=0xcf, Byte10=0xff, Byte11=0x87; #012former : Byte0=0x0b, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xff, Byte6=0xff, Byte7=0xff, Byte8=0xcf, Byte9=0xcf, Byte10=0xff, Byte11=0x7d; "
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0x21 0x80 0x8 0xf1 0xc 0x7 Rsp:0. 
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,inspur_monitor_app:,"[1059 : 1497 INFO]InspurSetPCIESlotPresentToCPLD, execute success,PCIESlotPresent0:0xdfff,PCIESlotPresent1:0x0,PowerStatLast:0 "
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,InspurMcaDiagnose:,[2629 : 2641 INFO]【MCAProgressTask】Get register start time: 2022-01-12T10:09:50 
+2022-01-12T10:09:50,maintenance.log,LC21C2290000H,InspurMcaDiagnose:,[2629 : 2641 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 

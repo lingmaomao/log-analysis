@@ -1,0 +1,4 @@
+2022-01-09T02:03:01,maintenance.log,LC21B2990001Q,InspurMcaDiagnose:,[3538 : 3549 INFO]【MCAProgressTask】Get register start time: 2022-01-09T02:03:01 
+2022-01-09T02:03:01,maintenance.log,LC21B2990001Q,InspurMcaDiagnose:,[3538 : 3549 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 
+2022-01-09T02:03:01,maintenance.log,LC21B2990001Q,inspur_monitor_app:,"[1132 : 1915 CRITICAL]Analyze CPLD Alert,read CPLD Alert status (byte1-2):byte1=0x0,byte2=0x0,i=5 "
+2022-01-09T02:03:01,maintenance.log,LC21B2990001Q,inspur_monitor_app:,"[1132 : 1915 CRITICAL]MB ERRORLOG, record 8 bytes.#012now(byte0~7) : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xff, Byte6=0xff, Byte7=0x1d; #012former : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xfe, Byte6=0xff, Byte7=0x1e; "

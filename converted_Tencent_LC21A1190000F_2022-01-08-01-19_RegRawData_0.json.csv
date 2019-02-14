@@ -1,0 +1,8 @@
+2021-11-03T13:39:13,idl.log,LC21A1190000F,InspurDiagnose:,"|2021-11-03T13:39:13+08:00|MAINBOARD|Deassert|Critical|12FF0202|System_Error SYS Error  IERR .| 
+"
+2021-11-03T13:39:13,maintenance.log,LC21A1190000F,inspur_monitor_app:,"[1108 : 1864 CRITICAL]MB ERRORLOG, record 8 bytes.#012now(byte0~7) : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xcd, Byte6=0xff, Byte7=0x4f; #012former : Byte0=0xff, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xff, Byte6=0xff, Byte7=0xff; "
+2021-11-03T13:39:13,maintenance.log,LC21A1190000F,InspurMcaDiagnose:,[3300 : 3312 INFO]【MCAProgressTask】Get register start time: 2021-11-03T13:39:13 
+2021-11-03T13:39:13,maintenance.log,LC21A1190000F,InspurMcaDiagnose:,[3300 : 3312 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 
+2021-11-03T13:39:13,maintenance.log,LC21A1190000F,inspur_monitor_app:,"[1108 : 1864 CRITICAL]Analyze CPLD Alert,read CPLD Alert status (byte1-2):byte1=0x0,byte2=0x0,i=5 "
+2021-11-03T13:39:13,maintenance.log,LC21A1190000F,InspurDiagnose:,|2021-11-03T13:39:13+08:00|MAINBOARD|Deassert|Info|15FFB400|MCE Error  .| 
+2021-11-03T13:39:13,maintenance.log,LC21A1190000F,inspur_monitor_app:,"[1108 : 1864 CRITICAL]MB ERRORLOG, record 8 bytes.#012now(byte0~7) : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xff, Byte6=0xff, Byte7=0x1d; #012former : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xcd, Byte6=0xff, Byte7=0x4f; "

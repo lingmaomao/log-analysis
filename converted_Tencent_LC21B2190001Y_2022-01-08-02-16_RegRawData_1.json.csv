@@ -1,0 +1,60 @@
+2022-01-01T00:34:56,idl.log,LC21B2190001Y,InspurDiagnose:,"|2022-01-01T00:34:56+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_MSMI_LVT3_N_Long.| 
+"
+2022-01-01T00:34:56,selelist.csv,"['System Event System_Error', 'Undetermined system hardware failure', 'Asserted\n']"
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,IPMIMain:,"[815 : 870 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=13, IndicatedNo=21498 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,IPMIMain:,"[815 : 870 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 1, CoreID: 0,  BankNo: 1, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x000000000000000b,  IA32_MCG_CAP: 0x000000000f000c17, MCA_ERROR_CONTROL: 0x0000000000000080, IA32_MCi_CTL: 0x000000000000000f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0xbd80000000100134, IA32_MCi_ADDR: 0x0000000297288100, IA32_MCi_MISC: 0x0000000000000086, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000002, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x00000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,IPMIMain:,"[815 : 870 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0xdc 0xc5 0x77 0xa1 0xff 0x1 Rsp:0. 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=13, IndicatedNo=21498 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]SystemAddressToDimmAddressCPX: SystemAddress = 0x297288100, system Address located space 12 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateSAD:sad:0x0 DramRule:0x48001f83 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]TranslateSAD:sad:0x0, limit:0xffffffff, PrevLimit:0x0, SystemAddress: 0x297288100 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateSAD:sad:0x1 DramRule:0x48060783 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]TranslateSAD:sad:0x1, limit:0x303fffffff, PrevLimit:0xffffffff, SystemAddress: 0x297288100 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]【DimmAddressDecode】TranslateSAD: Interleave mode: 0x1 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]【DimmAddressDecode】TranslateSAD: Interleave Index [8,9,10]: 0x1 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateSAD: interleaveListIndex: 0x1 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]TranslateSAD: InterleaveListCfg.Data = 0x98989898, retval= 0, SocketId=0 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateSAD: TargetId: 0x9 for Skt: 0x0 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateSAD: Local Skt Found: 0x0 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]TranslateSAD: mod3: 0x1, mod3_asamod2: 0x0, mod3_mode: 0x1 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateSAD: Ch_Mod: 0x3 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateSAD: address_mod: 0x1 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateSAD: logChId: 0x3 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateSAD: chaRouteTable: 0x29408208 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]TranslateSAD: mcId: 0x1, chId: 0x1 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]TranslateSAD: SocketId: 0x0, MciId: 0x1, ChannelId: 0x1, LogChannelId: 0x3, node: 0x1, TargetId: 0x9, SadId: 0x1 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]Going through all sockets to find out if there are DDRT DIMMs 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]MemType is 1LM, TranslateSAD SUCCESSFUL! "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TAD Translation for 1LM 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateTad:Tad:0x0 limit:0x0002f600 tadWayness:0xbfffffff 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,inspur_monitor_app:,"[1137 : 1884 CRITICAL]Analyze CPLD Alert,read CPLD Alert status (byte1-2):byte1=0x20,byte2=0x0,i=5 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateTad:Tad:0x1 limit:0x00c0f600 tadWayness:0x3fffffff 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateTAD: Tad Entry: 0x1 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,inspur_monitor_app:,"[1137 : 1884 CRITICAL]MB ERRORLOG, record 12 bytes.#012now(byte0~11) : Byte0=0x0b, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xdd, Byte6=0xff, Byte7=0xff, Byte8=0xcf, Byte9=0xcf, Byte10=0xff, Byte11=0x9f; #012former : Byte0=0xff, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xff, Byte6=0xff, Byte7=0xff, Byte8=0xcf, Byte9=0xcf, Byte10=0xff, Byte11=0xff; "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]TranslateTAD: sktWays: 0x2, chWays: 0x3 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateTAD: SktInterleaveBit: 0x8 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateTAD: chInterleaveBit: 0x8 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateTAD: (chOffset shl SAD_UNIT): 0x40000000 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateTAD: chOffest 46bit adj 0x40000000 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateTAD: CoreAddr 0x57288100 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateTAD: channelAddress: 0x63dc1500 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateRIR:Calculating Rank Address for DDR4 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]TranslateRIR: Matching Rir Entry: 0x0, Rir Limit: 0x7, Rir Ways: 0xffffffff "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateRIR: shiftVal: 13 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]TranslateRIR: rir_rnk_tgt0: 0x0, rir_offset0: 0x0 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateRIR: Dimm: 0x0 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateRIR - RankAddress = 0x00000000:0x31ee1500 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]TranslateRankAddress_CPX start! 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]DIMMMtr:0xc9074   AMAP:0x1! 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]LowPos:0x1e  HighPos:0x21  LeftOver:0x0 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,"[3430 : 3446 INFO]TranslateRankAddress_CPX: Col:0x150, Row:0x11f0, Bank:0x3, BankGroup:0x2, ChipId:0x0, ChipSelect:0x0 "
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress_CPX is successful 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]【DimmAddressDecode】SystemAddressToDimmAddressCPX: Forward Address Translation Successful!! 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3446 INFO]==========SystemAddressToDimmAddressCPX: ErrorDeviceLocation= DIMM040 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0xdc 0x17 0x75 0xa0 0xd 0x3 Rsp:0. 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3445 INFO]【MCAProgressTask】Get register start time: 2022-01-01T00:34:56 
+2022-01-01T00:34:56,maintenance.log,LC21B2190001Y,InspurMcaDiagnose:,[3430 : 3445 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 

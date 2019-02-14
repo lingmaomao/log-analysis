@@ -127,9 +127,6 @@ def generateLog(filename):
                 InspurDiagnose=data_slice[4]
                 csv_writer.writerow([time_stamp,logs[l], meachine,InspurDiagnose, Diagnose_info])
 
-#1. 
-f = open('log.csv', 'w', encoding='utf-8', newline="")
-csv_writer = csv.writer(f)
 
 
 #cmd='./test-run1.sh '+str(empu_num[l]) + ' ' + str(batch[k1])
@@ -142,9 +139,15 @@ file_names = os.listdir(converted_files_dir)
 for k in range(len(file_names)):
     if file_names[k].startswith("converted_"):
         print("File:", file_names[k])
+        #1. 
+        res_file = file_names[k]+".csv"
+        f = open(res_file, 'w', encoding='utf-8', newline="")
+        csv_writer = csv.writer(f)
+
         generateLog(file_names[k])
+
+        f.close()
         #exit()
 
          
-f.close()
 

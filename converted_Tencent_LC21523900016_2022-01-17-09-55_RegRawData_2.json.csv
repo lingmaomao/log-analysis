@@ -1,0 +1,3 @@
+2022-01-06T15:00:56,idl.log,LC21523900016,InspurDiagnose:,"|2022-01-06T15:00:56+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_CATERR_LVT3_N_LongFM_CPU_MSMI_LVT3_N_Long.| 
+"
+2022-01-06T15:00:56,selelist.csv,"['System Event System_Error', 'Undetermined system hardware failure', 'Asserted\n']"

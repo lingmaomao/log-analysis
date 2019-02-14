@@ -1,0 +1,3 @@
+2022-01-11T15:15:26,maintenance.log,LC21C2290000H,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0x21 0x80 0x8 0xf1 0xc 0x7 Rsp:0. 
+2022-01-11T15:15:26,maintenance.log,LC21C2290000H,InspurMcaDiagnose:,[2629 : 2641 INFO]【MCAProgressTask】Get register start time: 2022-01-11T15:15:26 
+2022-01-11T15:15:26,maintenance.log,LC21C2290000H,InspurMcaDiagnose:,[2629 : 2641 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 

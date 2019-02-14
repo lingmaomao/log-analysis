@@ -1,0 +1,6 @@
+2022-01-03T21:54:35,idl.log,LC21B2490007N,InspurDiagnose:,"|2022-01-03T21:54:35+08:00|TFACollectSuccess|Assert|Info|D9FF0800|Diagnose success send SNMP trap | 
+"
+2022-01-03T21:54:35,maintenance.log,LC21B2490007N,InspurMcaDiagnose:,[3316 : 3327 INFO]【MCAProgressTask】Analyse the register data Done 
+2022-01-03T21:54:35,maintenance.log,LC21B2490007N,InspurMcaDiagnose:,[3316 : 3327 INFO]【MCAProgressTask】Trigger CrashDump  
+2022-01-03T21:54:35,maintenance.log,LC21B2490007N,InspurMcaDiagnose:,[3316 : 3327 INFO]【MCAProgressTask】Get register start time: 2022-01-03T21:54:35 
+2022-01-03T21:54:35,maintenance.log,LC21B2490007N,InspurMcaDiagnose:,[3316 : 3327 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 

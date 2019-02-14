@@ -1,0 +1,74 @@
+2021-11-23T01:43:47,idl.log,FX21B050002AB,InspurDiagnose:,"|2021-11-23T01:43:47+08:00|MEMORY|Assert|Critical|0C000102|DIMM000 Uncorrectable ECC or other uncorrectable memory error Memory(CPU0-CH0-DIMM0) Error| 
+/home/maomao/LOG-analysis/Error_logs/Tencent_FX21B050002AB_2022-01-08-01-19/onekeylog/log/idl.log:87:<162>  2021-11-23T01:43:47.633490+08:00 FX21B050002AB InspurDiagnose:   |2021-11-23T01:43:47+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_MSMI_LVT3_N_Long.| 
+"
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,IPMIMain:,"[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=61, IndicatedNo=62831 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,IPMIMain:,"[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 1, CoreID: 6,  BankNo: 1, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x000000000000000b,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x0000000000000001, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0xbd80000000100134, IA32_MCi_ADDR: 0x0000003f68c4b900, IA32_MCi_MISC: 0x0000000000000086, THREAD_SMI_ERR_SRC: 0x0000000000000002, CORE_SMI_ERR_SRC: 0x0000000000000000, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x00000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,IPMIMain:,"[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=61, IndicatedNo=62831 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x3f68c4b900, system Address located space 12 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x68c4b900 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x1 in Skt 0x0 is 0x407c3 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x4080000000 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x1 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x1 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 1 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x0,ChannelId is 0x0 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x40, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 1 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x4080000000 for Tad 1 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x80000000 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xdd189600 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x0,TranslatedAddress->PhysicalRankId is 0x0,TranslatedAddress->DimmSlot is 0x0 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,IPMIMain:,"[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=62, IndicatedNo=47022 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,IPMIMain:,"[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 1, CoreID: 6,  BankNo: 1, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000001,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x0000000000000001, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0xff80000000100134, IA32_MCi_ADDR: 0x0000003f68c4b900, IA32_MCi_MISC: 0x0000000000000086, THREAD_SMI_ERR_SRC: 0x0000000000000002, CORE_SMI_ERR_SRC: 0x0000000000000000, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x03070307,EMCA_CORE_CSMI_LOG: 0x00000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000080,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00140000, "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,IPMIMain:,"[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x2c0, TranslatedAddress->Row is 0x1f741,TranslatedAddress->Bank is 0x1, TranslatedAddress->BankGroup is 0x0, TranslatedAddress->ChipId is 0x0 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM000 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,IPMIMain:,"[805 : 858 INFO]BIOS SEL FROM BMC: SensorType=0x0C, SensorNum=0xF9, EvtDirType=0x6F, Data:0xA1, 0x00, 0x00 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,IPMIMain:,"[805 : 858 INFO]BIOS SEL: SensorType=0x0C, SensorNum=0xF9, EvtDirType=0x6F, Data:0xA1, 0x00, 0x00.PSGood:1 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,inspur_monitor_app:,"[1125 : 1890 CRITICAL]Analyze CPLD Alert,read CPLD Alert status (byte1-2):byte1=0x20,byte2=0x0,i=5 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,inspur_monitor_app:,"[1125 : 1890 CRITICAL]MB ERRORLOG, record 8 bytes.#012now(byte0~7) : Byte0=0x07, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xcc, Byte6=0xff, Byte7=0x50; #012former : Byte0=0xff, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xff, Byte6=0xff, Byte7=0xff; "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurDiagnose:,|2021-11-23T01:43:47+08:00|MAINBOARD|Assert|Info|15FFB400|MCE Error   FM_CPU_MSMI_LVT3_N_Pulse.| 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3292 INFO]【MCAProgressTask】Get register start time: 2021-11-23T01:43:47 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3292 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=62, IndicatedNo=47022 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,"[3283 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x3f68c4b900, system Address located space 12 "
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x68c4b900 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x1 in Skt 0x0 is 0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x2 in Skt 0x0 is 0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x3 in Skt 0x0 is 0x0 
+2021-11-23T01:43:47,maintenance.log,FX21B050002AB,InspurMcaDiagnose:,[3283 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x4 in Skt 0x0 is 0x0 

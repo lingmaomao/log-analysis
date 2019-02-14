@@ -1,0 +1,11 @@
+2021-12-24T19:34:45,idl.log,LC2190290002K,InspurDiagnose:,"|2021-12-24T19:34:45+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_MSMI_LVT3_N_Long.| 
+"
+2021-12-24T19:34:45,selelist.csv,"['System Event System_Error', 'Undetermined system hardware failure', 'Asserted\n']"
+2021-12-24T19:34:45,maintenance.log,LC2190290002K,inspur_monitor_app:,"[1089 : 1519 CRITICAL]Analyze CPLD Alert,read CPLD Alert status (byte1-2):byte1=0x20,byte2=0x0,i=5 "
+2021-12-24T19:34:45,maintenance.log,LC2190290002K,inspur_monitor_app:,"[1089 : 1519 CRITICAL]MB ERRORLOG, record 12 bytes.#012now(byte0~11) : Byte0=0x0b, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xd9, Byte6=0xff, Byte7=0xff, Byte8=0xcf, Byte9=0xcf, Byte10=0xff, Byte11=0xa3; #012former : Byte0=0x0b, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xff, Byte6=0xff, Byte7=0xff, Byte8=0xcf, Byte9=0xcf, Byte10=0xff, Byte11=0x7d; "
+2021-12-24T19:34:45,maintenance.log,LC2190290002K,InspurDiagnose:,|2021-12-24T19:34:45+08:00|MAINBOARD|Assert|Info|15FFB400|MCE Error   FM_CPU_CATERR_LVT3_N_Pulse.| 
+2021-12-24T19:34:45,maintenance.log,LC2190290002K,inspur_monitor_app:,"[1089 : 1519 CRITICAL]MB ERRORLOG, record 12 bytes.#012now(byte0~11) : Byte0=0x0b, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xdd, Byte6=0xff, Byte7=0xff, Byte8=0xcf, Byte9=0xcf, Byte10=0xff, Byte11=0x9f; #012former : Byte0=0x0b, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xd9, Byte6=0xff, Byte7=0xff, Byte8=0xcf, Byte9=0xcf, Byte10=0xff, Byte11=0xa3; "
+2021-12-24T19:34:45,maintenance.log,LC2190290002K,InspurDiagnose:,|2021-12-24T19:34:45+08:00|MAINBOARD|Deassert|Info|15FFB400|MCE Error  .| 
+2021-12-24T19:34:45,maintenance.log,LC2190290002K,InspurMcaDiagnose:,[2673 : 2696 INFO]【MCAProgressTask】Get register start time: 2021-12-24T19:34:45 
+2021-12-24T19:34:45,maintenance.log,LC2190290002K,InspurMcaDiagnose:,[2673 : 2696 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 
+2021-12-24T19:34:45,maintenance.log,LC2190290002K,IPMIMain:,|IPMI|IPMB|NA|Operation:Platform Event NetFn:0x4 CMD:0x2 Req:0x4 0xdc 0x17 0x75 0xa0 0xd 0x3 Rsp:0. 

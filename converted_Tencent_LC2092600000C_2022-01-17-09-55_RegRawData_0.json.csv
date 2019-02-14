@@ -1,0 +1,6 @@
+2022-01-14T21:21:24,idl.log,LC2092600000C,InspurDiagnose:,"|2022-01-14T21:21:24+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS Error  IERR  FM_CPU_MSMI_LVT3_N_Long.| 
+"
+2022-01-14T21:21:24,maintenance.log,LC2092600000C,inspur_monitor_app:,"[1192 : 1751 CRITICAL]Analyze CPLD Alert,read CPLD Alert status (byte1-2):byte1=0x20,byte2=0x0,i=5 "
+2022-01-14T21:21:24,maintenance.log,LC2092600000C,inspur_monitor_app:,"[1192 : 1751 CRITICAL]MB ERRORLOG, record 12 bytes.#012now(byte0~11) : Byte0=0x0b, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xdd, Byte6=0xff, Byte7=0xff, Byte8=0xcf, Byte9=0xcf, Byte10=0xff, Byte11=0x9f; #012former : Byte0=0x0b, Byte1=0xff, Byte2=0xec, Byte3=0xfc, Byte4=0xf7, Byte5=0xff, Byte6=0xff, Byte7=0xff, Byte8=0xcf, Byte9=0xcf, Byte10=0xff, Byte11=0x7d; "
+2022-01-14T21:21:24,maintenance.log,LC2092600000C,InspurMcaDiagnose:,[3493 : 3505 INFO]【MCAProgressTask】Get register start time: 2022-01-14T21:21:24 
+2022-01-14T21:21:24,maintenance.log,LC2092600000C,InspurMcaDiagnose:,[3493 : 3505 INFO]【MCAProgressTask】 Before read  cpu register data sleep 90s 

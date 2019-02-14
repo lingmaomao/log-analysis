@@ -39,12 +39,15 @@ def generateLog(filename):
             #2022-01-08T09:25:57 -> 11/21/2021,10:33:59
             timeArray = time.strptime(time_stamp, "%Y-%m-%dT%H:%M:%S")
             print("timeArray:", timeArray)
-            time_stamp = time.strftime("%m/%d/%Y,%H:%M:%S", timeArray)
-            print("otherStyeTime:", time_stamp)
+            time_stamp1 = time.strftime("%m/%d/%Y,%H:%M:%S", timeArray)
+            print("otherStyeTime:", time_stamp1)
 
         print("log-type: ", logs[l])
         #get_data_cmd='grep ' + time_stamp + ' /home/maomao/LOG-analysis/onekeylog/log/ -rn' + '| grep '+ logs[l]
-        get_data_cmd='grep ' + time_stamp + ' ' + log_dir + ' -rn' + '| grep '+ logs[l]
+        if l == 1:
+            get_data_cmd='grep ' + time_stamp1 + ' ' + log_dir + ' -rn' + '| grep '+ logs[l]
+        else:
+            get_data_cmd='grep ' + time_stamp + ' ' + log_dir + ' -rn' + '| grep '+ logs[l]
         print("get_data_cmd: ", get_data_cmd)
         #grep 2022-01-08T09:25:57  -rn | grep idl
 
@@ -66,6 +69,7 @@ def generateLog(filename):
     
         #ldl.log
         if l == 0:
+            #<162>  2022-01-08T09:25:57.520032+08:00 FX21B050001PD InspurDiagnose:   |2022-01-08T09:25:57+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS       Error  IERR  FM_CPU_MSMI_LVT3_N_Long.|
             start=data.find('|')
             Diagnose_info=data[start:]
             print("Diagnose_info:", Diagnose_info)
@@ -80,8 +84,23 @@ def generateLog(filename):
 
         #selelist.csv
         #01/08/2022,09:25:57
+        if l == 1:
+            #e,11/21/2021,18:46:04,System Boot Initiated BIOS_Boot_Up,State Asserted
+            #start=data.find(',')
+            #Diagnose_info=data[start:]
+            #print("Diagnose_info:", Diagnose_info)
+    
+            data_slice=data.split(',')
+            print("data_slice:", data_slice)
+            print("data_slice[2]:", data_slice[2])
+            print("data_slice[3]:", data_slice[3])
+            Diagnose_info=data_slice[3:]
+            print("Diagnose_info:", Diagnose_info)
+            csv_writer.writerow([time_stamp, logs[l], Diagnose_info])
+
         #maintenance.log
         if l == 2:
+            #<182>  2021-11-21T09:51:18.650000+08:00 FX21B050001PD inspur_component_app:  [2194 : 2194 INFO]prepare : read pcie asset info from EEPROM
             line_slice=data.split('\n')
             print("line_slice:", line_slice)
             print("line_slice.len:", len(line_slice))

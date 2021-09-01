@@ -43,9 +43,22 @@ def get_FW(datas):
                         fw_device_info[fw_device[n]] = data[sub_key]
     if (len(fw_device_info["ME"])>0):
         print("fw_device_info:", fw_device_info)
+ 
+def get_cpu_info(data):
+    info_list = []
+    print("cpu Data", data)
+    key="processors"
+    if data.get(key) is not None:
+        sub_key="proc_name"
+        device0=data[key][0]
+        if device0.get(sub_key) is not None:
+            print("data[key][sub_key]:", device0[sub_key])
+            info = device0[sub_key]
+            info_list.append(info)
+    return info_list
 
 def get_seq_FW(datas):
-    fw_device_seq_info = []
+    info_list = []
     for m in range(len(datas)):
         data=datas[m]
         print("data", data)
@@ -56,13 +69,14 @@ def get_seq_FW(datas):
                 print("data[sub_key]:", data[sub_key])
                 #fw_device_info[fw_device[n]] = data[sub_key]
                 info = data[key] + ":" + data[sub_key]
-                fw_device_seq_info.append(info)
-    return fw_device_seq_info
+                info_list.append(info)
+    return info_list
 
 res_file = "component.csv"
 f = open(res_file, 'w', encoding='utf-8', newline="")
 csv_writer = csv.writer(f)
 
+"""
 files=[
 "LC21B29900015",
 "X21A260008A2",
@@ -75,37 +89,51 @@ files=[
 "LN2172410001F",
 "LC2182890000L"
 ]
+"""
+files=[
+"LC21B29900015",
+"X21A260008A2"
+]
 
+#HW SKU – CPU/PPIN/Memory info
 def extractComp(filename):
     f = open(filename,'rb')
     byt = f.readlines()
     #print(byt)
     #for every line
+    head=[]
+    head.append(filename)
+    info=head
     for m in range(len(byt)):
         data0=str(byt[m], 'utf-8')
         print("data0:", data0)
-        if 'RESTful version info:' in data0:
-            print("#get_seq_FW:\n")
         if m+1==len(byt):
             continue
         data=str(byt[m+1], 'utf-8')
         #exit()
         if (len(data)>=2) and (data[0]=='['):
             lists=eval(data)
-            print(type(lists))
-            print(lists)
+            #print(type(lists))
+            #print(lists)
             if 'RESTful version info:' in data0:
                 print("get_seq_FW:\n")
                 fw_device_seq_info = get_seq_FW(lists)
-                head=[]
-                head.append(filename)
-                info = head+fw_device_seq_info
-                #csv_writer.writerow(fw_device_seq_info)
-                csv_writer.writerow(info)
+                info = info+fw_device_seq_info
+                #csv_writer.writerow(info)
+
         if (len(data)>=2) and (data[0]=='{'):
-            cpu_info=get_cpu(data)
+            lists=eval(data)
+            #print(type(lists))
+            #print(lists)
+            if 'RESTful CPU info:' in data0:
+                print("get_cpu_info:\n")
+                cpu_info = get_cpu_info(lists)
+                info = info+cpu_info
+            #cpu_info=get_cpu(data)
             #key="proc_name"
         #key="cpu_power"
+    print("info:", info)
+    csv_writer.writerow(info)
 
     
 path='/home/maomao/LOG-analysis/Error_logs/Logs/'

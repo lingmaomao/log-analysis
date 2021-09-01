@@ -78,74 +78,80 @@ def generateLog(filename):
             if status == "false":
                 continue
  
-            data=str(latency, 'utf-8')
-            print("data: ", data)
-            data.rstrip('\n')
-            print("data.rstrip(): ", data)
-        
-            #ldl.log
-            if l == 0:
-                #<162>  2022-01-08T09:25:57.520032+08:00 FX21B050001PD InspurDiagnose:   |2022-01-08T09:25:57+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS       Error  IERR  FM_CPU_MSMI_LVT3_N_Long.|
-                start=data.find('|')
-                Diagnose_info=data[start:]
-                print("Diagnose_info:", Diagnose_info)
-        
-                data_slice=data.split(' ')
-                print("data_slice:", data_slice)
-                print("data_slice[3]:", data_slice[3])
-                print("data_slice[4]:", data_slice[4])
-                meachine=data_slice[3]
-                InspurDiagnose=data_slice[4]
-                Diagnose_info=InspurDiagnose+Diagnose_info
-                csv_writer.writerow([time_stamp, logs[l], Diagnose_info])
- 
-            #selelist.csv
-            #01/08/2022,09:25:57
-            if l == 1:
-                #e,11/21/2021,18:46:04,System Boot Initiated BIOS_Boot_Up,State Asserted
-                #start=data.find(',')
-                #Diagnose_info=data[start:]
-                #print("Diagnose_info:", Diagnose_info)
-        
-                data_slice=data.split(',')
-                print("data_slice:", data_slice)
-                print("data_slice[2]:", data_slice[2])
-                print("data_slice[3]:", data_slice[3])
-                Diagnose_info=data_slice[3:]
-                print("Diagnose_info:", Diagnose_info)
-                csv_writer.writerow([time_stamp, logs[l], Diagnose_info])
- 
-            #maintenance.log
-            if l == 2:
-                #<182>  2021-11-21T09:51:18.650000+08:00 FX21B050001PD inspur_component_app:  [2194 : 2194 INFO]prepare : read pcie asset info from EEPROM
-                line_slice=data.split('\n')
-                print("line_slice:", line_slice)
-                print("line_slice.len:", len(line_slice))
-                print("line_slice[0]:", line_slice[0])
-                for m in range(len(line_slice)):
-                    print("m=", m)
-                    print("m.len=", len(line_slice[m]))
-                    if len(line_slice[m])==0:
-                        continue
-                    print("line_slice[m]:", line_slice[m])
-                    start=line_slice[m].find('|')
-                    if start==-1:
-                        start=line_slice[m].find('[')
-                    print("start=", start)
-                 
-                    Diagnose_info=line_slice[m][start:]
+            datas=str(latency, 'utf-8')
+            print("datas: ", datas)
+            datas.rstrip('\n')
+            print("datas.rstrip(): ", datas)
+
+            data=datas.split('\n')
+
+            for p in range(len(data)):
+                print("p: ", p)
+                print("data: ", data[p])
+
+            for p in range(len(data)-1):
+                print("data: ", data[p])
+                #ldl.log
+                if l == 0:
+                    #<162>  2022-01-08T09:25:57.520032+08:00 FX21B050001PD InspurDiagnose:   |2022-01-08T09:25:57+08:00|MAINBOARD|Assert|Critical|12FF0202|System_Error SYS       Error  IERR  FM_CPU_MSMI_LVT3_N_Long.|
+                    start=data[p].find('|')
+                    Diagnose_info=data[p][start:]
                     print("Diagnose_info:", Diagnose_info)
-                 
-                    data_slice=line_slice[m].split(' ')
+         
+                    data_slice=data[p].split(' ')
                     print("data_slice:", data_slice)
                     print("data_slice[3]:", data_slice[3])
                     print("data_slice[4]:", data_slice[4])
                     meachine=data_slice[3]
                     InspurDiagnose=data_slice[4]
                     Diagnose_info=InspurDiagnose+Diagnose_info
-                    csv_writer.writerow([time_stamp,logs[l], Diagnose_info])
-
-
+                    csv_writer.writerow([time_stamp, logs[l], Diagnose_info])
+         
+                #selelist.csv
+                #01/08/2022,09:25:57
+                if l == 1:
+                    #e,11/21/2021,18:46:04,System Boot Initiated BIOS_Boot_Up,State Asserted
+                    #start=data.find(',')
+                    #Diagnose_info=data[start:]
+                    #print("Diagnose_info:", Diagnose_info)
+         
+                    data_slice=data[p].split(',')
+                    print("data_slice:", data_slice)
+                    print("data_slice[2]:", data_slice[2])
+                    print("data_slice[3]:", data_slice[3])
+                    Diagnose_info=data_slice[3:]
+                    print("Diagnose_info:", Diagnose_info)
+                    csv_writer.writerow([time_stamp, logs[l], Diagnose_info])
+         
+                #maintenance.log
+                if l == 2:
+                    #<182>  2021-11-21T09:51:18.650000+08:00 FX21B050001PD inspur_component_app:  [2194 : 2194 INFO]prepare : read pcie asset info from EEPROM
+                    line_slice=data[p].split('\n')
+                    print("line_slice:", line_slice)
+                    print("line_slice.len:", len(line_slice))
+                    print("line_slice[0]:", line_slice[0])
+                    for m in range(len(line_slice)):
+                        print("m=", m)
+                        print("m.len=", len(line_slice[m]))
+                        if len(line_slice[m])==0:
+                            continue
+                        print("line_slice[m]:", line_slice[m])
+                        start=line_slice[m].find('|')
+                        if start==-1:
+                            start=line_slice[m].find('[')
+                        print("start=", start)
+                     
+                        Diagnose_info=line_slice[m][start:]
+                        print("Diagnose_info:", Diagnose_info)
+                     
+                        data_slice=line_slice[m].split(' ')
+                        print("data_slice:", data_slice)
+                        print("data_slice[3]:", data_slice[3])
+                        print("data_slice[4]:", data_slice[4])
+                        meachine=data_slice[3]
+                        InspurDiagnose=data_slice[4]
+                        Diagnose_info=InspurDiagnose+Diagnose_info
+                        csv_writer.writerow([time_stamp,logs[l], Diagnose_info])
 
 #cmd='./test-run1.sh '+str(empu_num[l]) + ' ' + str(batch[k1])
 #grep "timestamp" converted_Tencent_FX21B050001PD_2022-01-17-09-55_RegRawData_1.json | awk '{print $2}'
@@ -156,6 +162,7 @@ file_names = os.listdir(converted_files_dir)
 #print(file_names)
 for k in range(len(file_names)):
     if file_names[k].startswith("converted_"):
+        #file_names[k]="converted_Tencent_FX21B0500022R_2022-01-08-00-56_RegRawData_0.json"
         print("File:", file_names[k])
         #1. 
         res_file = file_names[k]+".csv"

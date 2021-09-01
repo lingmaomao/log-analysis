@@ -1,9 +1,9 @@
-#filename='/home/maomao/LOG-analysis/Error_logs/Logs/Tencent_LC2192090009A_2022-01-17-09-53/onekeylog/component/component.log'
-filename='./component.log'
-f = open(filename,'rb')
-byt = f.readlines()
-#print(byt)
-#for every line
+import csv
+import os
+import subprocess
+import time
+import datetime
+
 
 #FW Version – BMC/ BIOS / ME / CPLD / PSU
 
@@ -44,16 +44,86 @@ def get_FW(datas):
     if (len(fw_device_info["ME"])>0):
         print("fw_device_info:", fw_device_info)
 
-for m in range(len(byt)):
-    data=str(byt[m], 'utf-8')
-    print("data:", data)
-    #exit()
-    if (len(data)>=2) and (data[0]=='['):
-        lists=eval(data)
-        print(type(lists))
-        print(lists)
-        get_FW(lists)
-    if (len(data)>=2) and (data[0]=='{'):
-        cpu_info=get_cpu(data)
-        #key="proc_name"
+def get_seq_FW(datas):
+    fw_device_seq_info = []
+    for m in range(len(datas)):
+        data=datas[m]
+        print("data", data)
+        key="dev_name"
+        if data.get(key) is not None:
+            sub_key="dev_version"
+            if data.get(sub_key) is not None:
+                print("data[sub_key]:", data[sub_key])
+                #fw_device_info[fw_device[n]] = data[sub_key]
+                info = data[key] + ":" + data[sub_key]
+                fw_device_seq_info.append(info)
+    return fw_device_seq_info
+
+res_file = "component.csv"
+f = open(res_file, 'w', encoding='utf-8', newline="")
+csv_writer = csv.writer(f)
+
+files=[
+"LC21B29900015",
+"X21A260008A2",
+"LC21A21900059",
+"FX21B05000227",
+"LC21A199000C9",
+"LC21A199000DK",
+"LC2192790002V",
+"LC21820900036",
+"LN2172410001F",
+"LC2182890000L"
+]
+
+def extractComp(filename):
+    f = open(filename,'rb')
+    byt = f.readlines()
+    #print(byt)
+    #for every line
+    for m in range(len(byt)):
+        data0=str(byt[m], 'utf-8')
+        print("data0:", data0)
+        if 'RESTful version info:' in data0:
+            print("#get_seq_FW:\n")
+        if m+1==len(byt):
+            continue
+        data=str(byt[m+1], 'utf-8')
+        #exit()
+        if (len(data)>=2) and (data[0]=='['):
+            lists=eval(data)
+            print(type(lists))
+            print(lists)
+            if 'RESTful version info:' in data0:
+                print("get_seq_FW:\n")
+                fw_device_seq_info = get_seq_FW(lists)
+                head=[]
+                head.append(filename)
+                info = head+fw_device_seq_info
+                #csv_writer.writerow(fw_device_seq_info)
+                csv_writer.writerow(info)
+        if (len(data)>=2) and (data[0]=='{'):
+            cpu_info=get_cpu(data)
+            #key="proc_name"
         #key="cpu_power"
+
+    
+path='/home/maomao/LOG-analysis/Error_logs/Logs/'
+for k in range(len(files)):
+    print(files[k])
+    #filename='/home/maomao/LOG-analysis/Error_logs/Logs/Tencent_LC2192090009A_2022-01-17-09-53/onekeylog/component/component.log'
+    #filename='./component.log'
+    dirs=os.listdir(path)
+    print("dirs:", dirs)
+    for m in range(len(dirs)):
+        if (dirs[m].find(files[k])!=-1):
+            #print("dir:", dirs[m])
+            #print("file:", files[k])
+            #print("m:", m)
+            #print("k:", k)
+
+            filename = path+dirs[m]+'/onekeylog/component/component.log'
+            print("filename:", filename)
+            extractComp(filename)
+
+f.close()

@@ -1,12 +1,9 @@
 import csv
 import os
-import subprocess
 import time
 import datetime
 
-
 #FW Version – BMC/ BIOS / ME / CPLD / PSU
-
 def get_cpu(data):
     key="processors"
     list=eval(data)
@@ -15,7 +12,6 @@ def get_cpu(data):
     #print("list[key]:", list[key])
     #if key in list:
     if list.get(key) is not None:
-        print("############################################")
         print("list[key]:", list[key])
         sub_key="proc_name"
         if list[key][0].get(sub_key) is not None:
@@ -55,6 +51,11 @@ def get_cpu_info(data):
             print("data[key][sub_key]:", device0[sub_key])
             info = device0[sub_key]
             info_list.append(info)
+        sub_key="ppin"
+        if device0.get(sub_key) is not None:
+            print("data[key][sub_key]:", device0[sub_key])
+            info = device0[sub_key]
+            info_list.append(info)
     return info_list
 
 def get_seq_FW(datas):
@@ -76,7 +77,6 @@ res_file = "component.csv"
 f = open(res_file, 'w', encoding='utf-8', newline="")
 csv_writer = csv.writer(f)
 
-"""
 files=[
 "LC21B29900015",
 "X21A260008A2",
@@ -94,6 +94,7 @@ files=[
 "LC21B29900015",
 "X21A260008A2"
 ]
+"""
 
 #HW SKU – CPU/PPIN/Memory info
 def extractComp(filename):

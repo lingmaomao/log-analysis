@@ -10,14 +10,13 @@ import datetime
 logs=["idl.log", "selelist.csv", "maintenance.log"]
 #logs=["idl.log", "maintenance.log"]
 converted_files_dir ='/home/maomao/LOG-analysis/convert_logs/'
-#logs_dir="/home/maomao/LOG-analysis/Error_logs/"
-logs_dir="/home/maomao/LOG-analysis/Error_logs/Logs/"
+logs_dir="/home/maomao/LOG-analysis/Error_logs/"
 
 def generateLog(filename):
     prefix="converted_"
     name_slice=filename.split('_')
     print("name_slice:", name_slice)
-    #json_file = converted_files_dir + filename
+    json_file = converted_files_dir + filename
     #json_file='/home/maomao/LOG-analysis/converted_Tencent_FX21B050001PD_2022-01-17-09-55_RegRawData_1.json';
     #print("json_file:", json_file)
     log_dir = logs_dir + name_slice[1] + '_' + name_slice[2] + '_' + name_slice[3] + "/onekeylog/log/"
@@ -159,63 +158,21 @@ def generateLog(filename):
 
 #1.get timeStamp
 
-files=[
-"LC21B29900015",
-"X21A260008A2",
-"LC21A21900059",
-"FX21B05000227",
-"LC21A199000C9",
-"LC21A199000DK",
-"LC2192790002V",
-"LC21820900036",
-"LN2172410001F",
-"LC2182890000L"
-]
+file_names = os.listdir(converted_files_dir)
+#print(file_names)
+for k in range(len(file_names)):
+    if file_names[k].startswith("converted_"):
+        #file_names[k]="converted_Tencent_FX21B0500022R_2022-01-08-00-56_RegRawData_0.json"
+        print("File:", file_names[k])
+        #1. 
+        res_file = file_names[k]+".csv"
+        f = open(res_file, 'w', encoding='utf-8', newline="")
+        csv_writer = csv.writer(f)
 
-"""
-path='/home/maomao/LOG-analysis/Github/MLC_logs'
-dirs=os.listdir(path)
-print("dirs:", dirs)
-for m in range(len(dirs)):
-    if (dirs[m].find(files[k])!=-1):
-        #print("dir:", dirs[m])
-        #print("file:", files[k])
-        #print("m:", m)
-        #print("k:", k)
+        generateLog(file_names[k])
 
-        #filename = path+dirs[m]+'/onekeylog/component/component.log'
-        filename = path+dirs[m]
-        print("filename:", filename)
-"""
-
-path='/home/maomao/LOG-analysis/Error_logs/Logs/'
-for k in range(len(files)):
-    #print(files[k])
-    #filename='/home/maomao/LOG-analysis/Error_logs/Logs/Tencent_LC2192090009A_2022-01-17-09-53/onekeylog/component/component.log'
-    #filename='./component.log'
-    dirs=os.listdir(path)
-    #print("dirs:", dirs)
-    for m in range(len(dirs)):
-        if (dirs[m].find(files[k])!=-1):
-            #print("dir:", dirs[m])
-            #print("file:", files[k])
-            #print("m:", m)
-            #print("k:", k)
-
-            #filename = path+dirs[m]+'/onekeylog/component/component.log'
-            filename = path+dirs[m]
-            print("filename:", filename)
-
-#res_file = file_names[k]+".csv"
-
-#res_file = dirs[m]+".csv"
-#f = open(res_file, 'w', encoding='utf-8', newline="")
-#csv_writer = csv.writer(f)
-
-#generateLog(file_name)
-
-#f.close()
-#exit()
+        f.close()
+        #exit()
 
          
 

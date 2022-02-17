@@ -7,22 +7,18 @@ import subprocess
 import time
 import datetime
 
-logs=["idl.log", "selelist.csv", "maintenance.log"]
+logs=["/onekeylog/log/idl.log", "/onekeylog/log/selelist.csv", "/onekeylog/log/maintenance.log"]
 #logs=["idl.log", "maintenance.log"]
 converted_files_dir ='/home/maomao/LOG-analysis/convert_logs/'
 #logs_dir="/home/maomao/LOG-analysis/Error_logs/"
 logs_dir="/home/maomao/LOG-analysis/Error_logs/Logs/"
 
-def generateLog(filename):
-    prefix="converted_"
-    name_slice=filename.split('_')
-    print("name_slice:", name_slice)
-    #json_file = converted_files_dir + filename
-    #json_file='/home/maomao/LOG-analysis/converted_Tencent_FX21B050001PD_2022-01-17-09-55_RegRawData_1.json';
-    #print("json_file:", json_file)
-    log_dir = logs_dir + name_slice[1] + '_' + name_slice[2] + '_' + name_slice[3] + "/onekeylog/log/"
+def generateLog(log_dir):
     print("log_dir:", log_dir)
-    get_data_cmd='grep ' + 'timestamp '+ json_file + '| awk \'{print $2}\''
+    json_file = log_dir +'/onekeylog/log/ErrorAnalyReport.json'
+    #json_file='/home/maomao/LOG-analysis/converted_Tencent_FX21B050001PD_2022-01-17-09-55_RegRawData_1.json';
+    print("json_file:", json_file)
+    get_data_cmd='grep ' + 'Time '+ json_file + '| awk \'{print $2}\''
     print("get_data_cmd: ", get_data_cmd)
     latency = subprocess.check_output(get_data_cmd, shell=True)
     print("latency: ", latency)
@@ -61,10 +57,12 @@ def generateLog(filename):
  
             print("log-type: ", logs[l])
             #get_data_cmd='grep ' + time_stamp + ' /home/maomao/LOG-analysis/onekeylog/log/ -rn' + '| grep '+ logs[l]
+            #Github/MLC_logs/Tencent_FX21A260008A2_2022-01-08-00-56/onekeylog/log/idl.log
+            log_file = log_dir + logs[l]
             if l == 1:
-                get_data_cmd='grep ' + time_stamp1 + ' ' + log_dir + ' -rn' + '| grep '+ logs[l]
+                get_data_cmd='grep ' + time_stamp1 + ' ' + log_file
             else:
-                get_data_cmd='grep ' + time_stamp + ' ' + log_dir + ' -rn' + '| grep '+ logs[l]
+                get_data_cmd='grep ' + time_stamp + ' ' + log_file
             print("get_data_cmd: ", get_data_cmd)
             #grep 2022-01-08T09:25:57  -rn | grep idl
  
@@ -204,18 +202,18 @@ for k in range(len(files)):
 
             #filename = path+dirs[m]+'/onekeylog/component/component.log'
             filename = path+dirs[m]
+            #filename = path+dirs[m]
             print("filename:", filename)
+            #res_file = file_names[k]+".csv"
+            res_file = dirs[m]+".csv"
+            print("res_file:", res_file)
+            f = open(res_file, 'w', encoding='utf-8', newline="")
+            csv_writer = csv.writer(f)
+            generateLog(filename)
 
-#res_file = file_names[k]+".csv"
 
-#res_file = dirs[m]+".csv"
-#f = open(res_file, 'w', encoding='utf-8', newline="")
-#csv_writer = csv.writer(f)
-
-#generateLog(file_name)
-
-#f.close()
-#exit()
+            f.close()
+            #exit()
 
          
 

@@ -22,11 +22,20 @@ def generateLog(log_dir):
     print("get_data_cmd: ", get_data_cmd)
     latency = subprocess.check_output(get_data_cmd, shell=True)
     print("latency: ", latency)
+    print ("latency[0]: ", latency[1:20])
     data=str(latency, 'utf-8')
 
-    print ("latency[0]: ", latency[1:20])
+    print ("Time: ", data)
     print ("data[0]: ", data[1:20])
-    time_stamp=data[1:20]
+    #time_set=eval(data)
+    data_set=data.split('\n')
+    print ("time_set: ", data_set)
+    
+    #time_stamp=data[1:20]
+    last_time=data_set[-2]
+    print ("TimeStamp: ", last_time)
+    time_stamp=last_time[1:20]
+    print ("TimeStamp: ", time_stamp)
     csv_writer.writerow([time_stamp])
     #2022-01-08T09:25:57
 

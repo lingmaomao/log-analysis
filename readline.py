@@ -121,6 +121,10 @@ def extractComp(filename):
                 fw_device_seq_info = get_seq_FW(lists)
                 info = info+fw_device_seq_info
                 #csv_writer.writerow(info)
+            if 'RESTful PCIE Device info:' in data0:
+                print("######### Memory ############")
+                #info = info.append(lists)
+                info.append(lists)
 
         if (len(data)>=2) and (data[0]=='{'):
             lists=eval(data)
@@ -130,9 +134,11 @@ def extractComp(filename):
                 print("get_cpu_info:\n")
                 cpu_info = get_cpu_info(lists)
                 info = info+cpu_info
-            #cpu_info=get_cpu(data)
-            #key="proc_name"
-        #key="cpu_power"
+
+            if 'RESTful Memory info:' in data0:
+                print("######### Memory ############")
+                info.append(lists)
+
     print("info:", info)
     csv_writer.writerow(info)
 
@@ -154,5 +160,6 @@ for k in range(len(files)):
             filename = path+dirs[m]+'/onekeylog/component/component.log'
             print("filename:", filename)
             extractComp(filename)
+            exit()
 
 f.close()

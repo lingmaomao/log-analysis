@@ -3,12 +3,18 @@ import os
 import time
 import datetime
 
+"""
 KEYS=[
     "Linux Version", #boot time,Jun 2 19:06:29 CST 2021
     "microcode", #get line
     "kernel panic", #get  line
     "Error", #get line
     "NMI" #get line
+]
+"""
+
+KEYS=[
+    "microcode" #get line
 ]
 
 res_file = "sol.csv"
@@ -41,9 +47,14 @@ def extractComp(filename, meachine):
             if (data0.find(KEYS[k])!=-1):
                 #print("Data0:", data0)
                 if (KEYS[k]=="microcode"):
-                    if (data0.find("revision")!=-1):
-                        #data0=data0.strip()
-                        info=info+data0
+                    pos=data0.find("revision")
+                    if (pos!=-1):
+                        data=data0[pos:-1]
+                        data=data.strip()
+                        data=data.replace("\r\n", "")
+                        data=data.replace("\t", "")
+                        info=info+data
+                        break
                 else:
                     info=info+data0
         info_set.append(info)
@@ -52,15 +63,15 @@ def extractComp(filename, meachine):
     csv_writer.writerow(info_set)
     
 path='/home/maomao/LOG-analysis/Error_logs/Logs/'
-path='/home/maomao/LOG-analysis/Tencent_LC22113800013_2022-01-28-16-22'
-#dirs=os.listdir(path)
-#for m in range(len(dirs)):
-#filename = path+dirs[m]+'/onekeylog/runningdata/var/sollog/SOLHostCapture.log'
-filename = path+'/onekeylog/runningdata/var/sollog/SOLHostCapture.log'
-#SOLHostCapture.log
-print("filename:", filename)
-extractComp(filename, "dir")
-#extractComp(filename, dirs[m])
-#exit()
+#path='/home/maomao/LOG-analysis/Tencent_LC22113800013_2022-01-28-16-22'
+dirs=os.listdir(path)
+for m in range(len(dirs)):
+    filename = path+dirs[m]+'/onekeylog/runningdata/var/sollog/SOLHostCapture.log'
+    #filename = path+'/onekeylog/runningdata/var/sollog/SOLHostCapture.log'
+    #SOLHostCapture.log
+    print("filename:", filename)
+    #extractComp(filename, "dir")
+    extractComp(filename, dirs[m])
+    #exit()
 
 f.close()

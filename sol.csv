@@ -1,0 +1,7 @@
+filename,Linux Version,microcode,kernel panic,Error,NMI
+dir,,"[   23.117215] microcode: sig=0x606a6, pf=0x1, revision=0xd0002c1
+",,"[   21.831455] ERST: Error Record Serialization Table (ERST) support is initialized.
+","[    1.330534] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.330537] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.730857] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+"

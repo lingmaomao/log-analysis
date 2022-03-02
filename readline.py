@@ -139,6 +139,9 @@ def extractComp(filename):
                 print("######### Memory ############")
                 info.append(lists)
 
+        if 'PCIe MMIO Address info:' in data0:
+            
+
     print("info:", info)
     csv_writer.writerow(info)
 

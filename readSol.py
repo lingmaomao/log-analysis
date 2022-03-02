@@ -15,7 +15,7 @@ KEYS=[
 
 KEYS=[
     "microcode", #get line
-    "NMI" #get line
+    " Error" #get line
 ]
 
 res_file = "sol.csv"
@@ -58,8 +58,9 @@ def extractComp(filename, meachine):
                         print("info:", info)
                         break
                 else:
-                    info=info+data0
-                    print("info2:", info)
+                    if (len(data0)<180 or KEYS[k]!=" Error"):
+                        info=info+data0
+                        print("info2:", info)
         print("Info:", info)
         info_set.append(info)
 

@@ -5,17 +5,22 @@ import datetime
 
 """
 KEYS=[
-    "Linux Version", #boot time,Jun 2 19:06:29 CST 2021
+    "Linux version", #boot time,Jun 2 19:06:29 CST 2021
     "microcode", #get line
     "kernel panic", #get  line
     "Error", #get line
     "NMI" #get line
 ]
-"""
-
 KEYS=[
+    "Linux version" #boot time,Jun 2 19:06:29 CST 2021
+]
+"""
+KEYS=[
+    "Linux version",#boot time,Jun 2 19:06:29 CST 2021
     "microcode", #get line
-    " Error" #get line
+    "Kernel panic", #get  line
+    " Error", #get line
+    "NMI" #get line
 ]
 
 res_file = "sol.csv"
@@ -58,7 +63,11 @@ def extractComp(filename, meachine):
                         print("info:", info)
                         break
                 else:
-                    if (len(data0)<180 or KEYS[k]!=" Error"):
+                    if (len(data0)<180 or (KEYS[k]!=" Error" and KEYS[k]!="Linux version")):
+                        if (KEYS[k]=="Linux version"):
+                            pos = data0.find("SMP")
+                            prefix_lens=len("SMP Fri")
+                            data0=data0[pos+prefix_lens:-1]
                         info=info+data0
                         print("info2:", info)
         print("Info:", info)

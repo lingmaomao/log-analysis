@@ -14,7 +14,8 @@ KEYS=[
 """
 
 KEYS=[
-    "microcode" #get line
+    "microcode", #get line
+    "NMI" #get line
 ]
 
 res_file = "sol.csv"
@@ -54,9 +55,12 @@ def extractComp(filename, meachine):
                         data=data.replace("\r\n", "")
                         data=data.replace("\t", "")
                         info=info+data
+                        print("info:", info)
                         break
                 else:
                     info=info+data0
+                    print("info2:", info)
+        print("Info:", info)
         info_set.append(info)
 
     print("info_set:", info_set)

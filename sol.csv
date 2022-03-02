@@ -1,81 +1,735 @@
-filename,microcode
-Tencent_FX21A1600076J_2022-01-08-00-56,
-Tencent_LC21B2490007N_2022-01-17-09-55,revision=0x7000020
-Tencent_LC2190290004V_2022-01-08-02-16,revision=0x7000020
-Tencent_LC2172690000Y_2022-01-05-10-25,
-Tencent_LC21B239000BN_2022-01-17-09-55,revision=0x7000020
-Tencent_FX21B1300052G_2021-12-30-09-46,revision=0xd0002c1
-Tencent_LC21B049000G2_2022-01-17-09-55,revision=0xd0002c1
-Tencent_LN2172410001F_2022-01-08-00-56,revision=0xd0002c1
-Tencent_LC21C12900064_2022-01-17-09-55,
-Tencent_LC21A1090001L_2022-01-07-17-23,revision=0xd0002c1
-Tencent_LC21C1890003L_2022-01-17-09-52,
-Tencent_LC21B0690007D_2022-01-17-09-55,revision=0x7000020
-Tencent_LC21B069000FC_2022-01-17-09-55,revision=0x7000020
-Tencent_LC21C209000BD_2022-01-17-09-51,revision=0x7000020
-Tencent_FX21B050001PD_2021-12-30-09-46,revision=0xd0002c1
-Tencent_LC21B2190001Y_2022-01-08-02-16,revision=0x7000020
-Tencent_LC2191790006B_2022-01-08-02-16,
-Tencent_LC2152390000J_2022-01-17-09-55,
-Tencent_LC21C1090002E_2022-01-08-02-16,revision=0x7000020
-Tencent_FX21B130004VM_2022-01-07-17-23,revision=0xd0002c1
-Tencent_LC2190290002K_2022-01-08-02-12,revision=0x7000020
-Tencent_LC21A1790001L_2022-01-08-02-16,revision=0x7000020
-Tencent_LC21B099000DK_2022-01-08-02-16,revision=0x7000020
-Tencent_LC21C10900016_2022-01-17-09-55,revision=0x7000020
-Tencent_LC21C1790000B_2022-01-08-02-16,revision=0x7000020
-Tencent_LC21920900061_2022-01-17-09-55,revision=0x7000020
-Tencent_LC2152090000G_2022-01-17-09-55,
-Tencent_FX21B050001PD_2022-01-17-09-55,revision=0xd0002c1
-Tencent_LC21C11800171_2022-01-07-17-23,revision=0xd0002c1
-Tencent_LC2160380004B_2022-01-08-02-16,
-Tencent_LC21B0390007Y_2022-01-08-02-16,
-Tencent_LC21C189000L5_2022-01-17-09-55,revision=0x7000020
-Tencent_LC21A2190004A_2022-01-17-09-55,
-Tencent_LC21B09900094_2022-01-17-09-55,revision=0x7000020
-Tencent_LC21B308000DL_2022-01-07-17-23,revision=0xd0002c1
-Tencent_LC21B119000FK_2022-01-17-09-53,revision=0xd0002c1
-Tencent_LC2182090002M_2022-01-17-09-55,revision=0xd0002c1
-Tencent_LC21920900061_2022-01-08-02-14,revision=0x7000020
-Tencent_LC2172490001A_2022-01-17-10-00,revision=0xd000280
-Tencent_LC2192790002V_2022-01-08-00-51,
-Tencent_LC21A06900030_2022-01-08-02-15,revision=0x7000020
-Tencent_LC21C1790005X_2022-01-17-09-55,revision=0x7000020
-Tencent_LC21A199000C9_2022-01-08-00-56,
-Tencent_LC21C2290006N_2022-01-13-13-18,revision=0x7000020
-Tencent_LC21A21900059_2022-01-08-00-53,
-Tencent_FX21B0500022R_2022-01-08-00-56,
-Tencent_LC21B2990001Q_2022-01-17-09-55,
-Tencent_LC21B1590002W_2022-01-07-17-23,
-Tencent_LC2092600000C_2022-01-17-09-55,revision=0x7000020
-Tencent_FX21A260008A2_2022-01-08-00-56,
-Tencent_LC21A1090005K_2021-12-30-14-26,revision=0xd0002c1
-Tencent_LC21A199000DK_2022-01-08-00-56,revision=0xd0002c1
-Tencent_LC21C169000BG_2022-01-17-09-54,
-Tencent_LC21A24900034_2022-01-17-09-55,
-Tencent_LC21820900036_2022-01-08-00-54,revision=0xd0002c1
-Tencent_LC21A1490009M_2022-01-08-02-16,
-Tencent_LC21B2190000H_2022-01-08-02-12,revision=0x7000020
-Tencent_LC2131690002Q_2022-01-07-17-23,revision=0xd000280
-Tencent_LC21C2290000H_2022-01-17-09-53,revision=0x7000020
-Tencent_FX21C150005ED_2022-01-07-17-23,revision=0xd0002c1
-Tencent_LC21A0690011A_2022-01-08-02-16,
-Tencent_LC21A21900026_2022-01-08-00-56,
-Tencent_LC21C189000WK_2022-01-17-09-55,revision=0x7000020
-Tencent_LC2152580000G_2022-01-08-02-16,revision=0x7000020
-Tencent_LC21C2190002D_2022-01-17-09-55,revision=0x7000020
-Tencent_LC21C129000A9_2022-01-08-02-16,revision=0x7000020
-Tencent_LC21B049000G2_2022-01-07-17-23,revision=0xd0002c1
-Tencent_LC21405900006_2022-01-17-09-55,revision=0xd000250
-Tencent_LC21A13900003_2022-01-08-02-16,
-Tencent_LC21B2490007N_2022-01-08-02-16,revision=0x7000020
-Tencent_LC21B0390007Y_2022-01-17-09-55,
-Tencent_FX21B12000446_2022-01-17-09-55,revision=0x7000020
-Tencent_LC21B29900015_2022-01-07-17-18,
-Tencent_LC21B2190001Y_2022-01-17-09-50,revision=0x7000020
-Tencent_LC21C15800056_2022-01-17-09-55,revision=0xd0002c1
-Tencent_LC21523900016_2022-01-17-09-55,revision=0xd000250
-Tencent_LC2182890000L_2022-01-08-00-56,revision=0xd0002c1
-Tencent_LC2192090009A_2022-01-17-09-53,revision=0x7000020
-Tencent_LC20A0400001B_2022-01-17-09-55,revision=0x7000020
-Tencent_FX21B05000227_2021-12-29-21-43,
+filename,microcode,NMI
+Tencent_FX21A1600076J_2022-01-08-00-56,,
+Tencent_LC21B2490007N_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.224787] smpboot: Booting Node   0, Processors  #1[    1.240776] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.165252] smpboot: Booting Node   0, Processors  #1[    1.190973] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223143] smpboot: Booting Node   0, Processors  #1[    1.238652] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2190290004V_2022-01-08-02-16,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222344] smpboot: Booting Node   0, Processors  #1[    1.237916] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221477] smpboot: Booting Node   0, Processors  #1[    1.237042] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.166488] smpboot: Booting Node   0, Processors  #1[    1.192404] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222917] smpboot: Booting Node   0, Processors  #1[    1.238531] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220465] smpboot: Booting Node   0, Processors  #1[    1.236017] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2172690000Y_2022-01-05-10-25,,
+Tencent_LC21B239000BN_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222544] smpboot: Booting Node   0, Processors  #1[    1.238305] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.158497] smpboot: Booting Node   0, Processors  #1[    1.183681] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223256] smpboot: Booting Node   0, Processors  #1[    1.238911] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_FX21B1300052G_2021-12-30-09-46,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.835420] smpboot: Booting Node   0, Processors  #1[    0.849309] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.832581] smpboot: Booting Node   0, Processors  #1[    0.846486] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.833225] smpboot: Booting Node   0, Processors  #1[    0.847132] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.834283] smpboot: Booting Node   0, Processors  #1[    0.848184] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.833900] smpboot: Booting Node   0, Processors  #1[    0.847806] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.832474] smpboot: Booting Node   0, Processors  #1[    0.846377] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.833681] smpboot: Booting Node   0, Processors  #1[    0.847575] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.833401] smpboot: Booting Node   0, Processors  #1[    0.847303] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.833227] smpboot: Booting Node   0, Processors  #1[    0.847130] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21B049000G2_2022-01-17-09-55,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.846723] smpboot: Booting Node   0, Processors  #1[    0.867025] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.852979] smpboot: Booting Node   0, Processors  #1[    0.882879] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.848030] smpboot: Booting Node   0, Processors  #1[    0.868246] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.846664] smpboot: Booting Node   0, Processors  #1[    0.866863] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LN2172410001F_2022-01-08-00-56,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.809401] smpboot: Booting Node   0, Processors  #1[    0.821450] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.809378] smpboot: Booting Node   0, Processors  #1[    0.821422] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.815165] smpboot: Booting Node   0, Processors  #1[    0.827205] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.813327] smpboot: Booting Node   0, Processors  #1[    0.825363] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.812253] smpboot: Booting Node   0, Processors  #1[    0.824287] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.816803] smpboot: Booting Node   0, Processors  #1[    0.828833] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.813384] smpboot: Booting Node   0, Processors  #1[    0.825420] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.810569] smpboot: Booting Node   0, Processors  #1[    0.822606] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.818105] smpboot: Booting Node   0, Processors  #1[    0.830143] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.810431] smpboot: Booting Node   0, Processors  #1[    0.822471] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C12900064_2022-01-17-09-55,,
+Tencent_LC21A1090001L_2022-01-07-17-23,revision=0xd0002c1,"[    1.336728] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.336730] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.728568] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    1.336565] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.336567] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.734532] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C1890003L_2022-01-17-09-52,,
+Tencent_LC21B0690007D_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222996] smpboot: Booting Node   0, Processors  #1[    1.238589] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.165745] smpboot: Booting Node   0, Processors  #1[    1.191667] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222407] smpboot: Booting Node   0, Processors  #1[    1.238127] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.230913] smpboot: Booting Node   0, Processors  #1[    1.247084] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221602] smpboot: Booting Node   0, Processors  #1[    1.237165] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21B069000FC_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220965] smpboot: Booting Node   0, Processors  #1[    1.236546] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223651] smpboot: Booting Node   0, Processors  #1[    1.239212] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220268] smpboot: Booting Node   0, Processors  #1[    1.235840] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.164169] smpboot: Booting Node   0, Processors  #1[    1.189617] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221761] smpboot: Booting Node   0, Processors  #1[    1.237431] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C209000BD_2022-01-17-09-51,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221685] smpboot: Booting Node   0, Processors  #1[    1.237177] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.162920] smpboot: Booting Node   0, Processors  #1[    1.188191] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.224126] smpboot: Booting Node   0, Processors  #1[    1.239652] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221537] smpboot: Booting Node   0, Processors  #1[    1.237039] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_FX21B050001PD_2021-12-30-09-46,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.834765] smpboot: Booting Node   0, Processors  #1[    0.848358] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.835572] smpboot: Booting Node   0, Processors  #1[    0.849163] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.831998] smpboot: Booting Node   0, Processors  #1[    0.845598] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.831824] smpboot: Booting Node   0, Processors  #1[    0.845421] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.833287] smpboot: Booting Node   0, Processors  #1[    0.846865] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.834229] smpboot: Booting Node   0, Processors  #1[    0.847820] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21B2190001Y_2022-01-08-02-16,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223816] smpboot: Booting Node   0, Processors  #1[    1.239593] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.164660] smpboot: Booting Node   0, Processors  #1[    1.190502] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223368] smpboot: Booting Node   0, Processors  #1[    1.239043] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2191790006B_2022-01-08-02-16,,
+Tencent_LC2152390000J_2022-01-17-09-55,,
+Tencent_LC21C1090002E_2022-01-08-02-16,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222950] smpboot: Booting Node   0, Processors  #1[    1.238559] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221430] smpboot: Booting Node   0, Processors  #1[    1.236995] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220944] smpboot: Booting Node   0, Processors  #1[    1.236517] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.159846] smpboot: Booting Node   0, Processors  #1[    1.185120] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223818] smpboot: Booting Node   0, Processors  #1[    1.239421] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_FX21B130004VM_2022-01-07-17-23,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.836280] smpboot: Booting Node   0, Processors  #1[    0.850189] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2190290002K_2022-01-08-02-12,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220856] smpboot: Booting Node   0, Processors  #1[    1.236439] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222427] smpboot: Booting Node   0, Processors  #1[    1.237991] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.164580] smpboot: Booting Node   0, Processors  #1[    1.190444] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.224191] smpboot: Booting Node   0, Processors  #1[    1.239876] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221010] smpboot: Booting Node   0, Processors  #1[    1.236583] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21A1790001L_2022-01-08-02-16,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221427] smpboot: Booting Node   0, Processors  #1[    1.236991] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223508] smpboot: Booting Node   0, Processors  #1[    1.239085] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.165554] smpboot: Booting Node   0, Processors  #1[    1.191261] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222652] smpboot: Booting Node   0, Processors  #1[    1.238342] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222659] smpboot: Booting Node   0, Processors  #1[    1.238216] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21B099000DK_2022-01-08-02-16,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.232579] smpboot: Booting Node   0, Processors  #1[    1.248517] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221369] smpboot: Booting Node   0, Processors  #1[    1.236939] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C10900016_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222269] smpboot: Booting Node   0, Processors  #1[    1.237740] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.161414] smpboot: Booting Node   0, Processors  #1[    1.187155] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221957] smpboot: Booting Node   0, Processors  #1[    1.237534] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221763] smpboot: Booting Node   0, Processors  #1[    1.237209] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C1790000B_2022-01-08-02-16,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222196] smpboot: Booting Node   0, Processors  #1[    1.238110] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21920900061_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223114] smpboot: Booting Node   0, Processors  #1[    1.238711] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222196] smpboot: Booting Node   0, Processors  #1[    1.237794] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2152090000G_2022-01-17-09-55,,
+Tencent_FX21B050001PD_2022-01-17-09-55,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.834382] smpboot: Booting Node   0, Processors  #1[    0.847975] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.835548] smpboot: Booting Node   0, Processors  #1[    0.849137] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.834970] smpboot: Booting Node   0, Processors  #1[    0.848549] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.833154] smpboot: Booting Node   0, Processors  #1[    0.846739] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.833844] smpboot: Booting Node   0, Processors  #1[    0.847437] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.833843] smpboot: Booting Node   0, Processors  #1[    0.847434] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.835016] smpboot: Booting Node   0, Processors  #1[    0.848602] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.833779] smpboot: Booting Node   0, Processors  #1[    0.847372] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.834639] smpboot: Booting Node   0, Processors  #1[    0.848224] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C11800171_2022-01-07-17-23,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.838736] smpboot: Booting Node   0, Processors  #1[    0.852329] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2160380004B_2022-01-08-02-16,,
+Tencent_LC21B0390007Y_2022-01-08-02-16,,
+Tencent_LC21C189000L5_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222347] smpboot: Booting Node   0, Processors  #1[    1.237912] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.164026] smpboot: Booting Node   0, Processors  #1[    1.189614] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223006] smpboot: Booting Node   0, Processors  #1[    1.238747] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.219190] smpboot: Booting Node   0, Processors  #1[    1.234752] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21A2190004A_2022-01-17-09-55,,
+Tencent_LC21B09900094_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220012] smpboot: Booting Node   0, Processors  #1[    1.235448] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21B308000DL_2022-01-07-17-23,revision=0xd0002c1,"[    1.328888] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.328890] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    4.867642] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    1.320883] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.320885] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    4.859433] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.825319] smpboot: Booting Node   0, Processors  #1[    0.848840] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.836329] NMI watchdog: Disabling watchdog on nohz_full cores by default
+[    0.843836] smpboot: Booting Node   0, Processors  #1[    0.857506] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21B119000FK_2022-01-17-09-53,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.844244] smpboot: Booting Node   0, Processors  #1[    0.864538] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.853991] smpboot: Booting Node   0, Processors  #1[    0.884033] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.845615] smpboot: Booting Node   0, Processors  #1[    0.865841] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2182090002M_2022-01-17-09-55,revision=0xd0002c1,"[    0.363157] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.363159] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    3.681771] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    0.386846] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.386848] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    3.705471] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+"
+Tencent_LC21920900061_2022-01-08-02-14,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223842] smpboot: Booting Node   0, Processors  #1[    1.239718] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222431] smpboot: Booting Node   0, Processors  #1[    1.238037] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+                                       [182643.149891] NMI watchdog: Watchdog detected hard LOCKUP on cpu 124
+[182643.149895] NMI watchdog: Watchdog detected hard LOCKUP on cpu 185
+[182643.149900] NMI watchdog: Watchdog detected hard LOCKUP on cpu 120
+[182643.149915] NMI watchdog: Watchdog detected hard LOCKUP on cpu 160
+[182643.149920] NMI watchdog: Watchdog detected hard LOCKUP on cpu 187
+[182643.149925] NMI watchdog: BUG: soft lockup - CPU#136 stuck for 41s! [memtester:183672]
+[182643.149928] NMI watchdog: BUG: soft lockup - CPU#145 stuck for 41s! [memtester:183797]
+[182643.149931] NMI watchdog: BUG: soft lockup - CPU#37 stuck for 42s! [memtester:183804]
+[182643.149934] NMI watchdog: BUG: soft lockup - CPU#139 stuck for 41s! [memtester:183752]
+[182643.149937] NMI watchdog: BUG: soft lockup - CPU#133 stuck for 41s! [memtester:183994]
+[182643.149940] NMI watchdog: BUG: soft lockup - CPU#146 stuck for 41s! [memtester:183767]
+[182643.149942] NMI watchdog: BUG: soft lockup - CPU#142 stuck for 41s! [memtester:183689]
+[182643.149944] NMI watchdog: BUG: soft lockup - CPU#132 stuck for 41s! [memtester:183321]
+[182643.149946] NMI watchdog: BUG: soft lockup - CPU#138 stuck for 41s! [memtester:183554]
+[182643.149948] NMI watchdog: BUG: soft lockup - CPU#140 stuck for 41s! [memtester:183649]
+[182643.149949] NMI watchdog: BUG: soft lockup - CPU#137 stuck for 41s! [memtester:183712]
+[182643.149951] NMI watchdog: BUG: soft lockup - CPU#135 stuck for 41s! [memtester:183411]
+[182643.149952] NMI watchdog: BUG: soft lockup - CPU#43 stuck for 42s! [memtester:183331]
+[182643.149954] NMI watchdog: BUG: soft lockup - CPU#149 stuck for 41s! [memtester:183946]
+[182643.149956] NMI watchdog: BUG: soft lockup - CPU#131 stuck for 41s! [memtester:183571]
+[182643.149960] NMI watchdog: BUG: soft lockup - CPU#144 stuck for 41s! [memtester:183725]
+[182643.149964] NMI watchdog: BUG: soft lockup - CPU#171 stuck for 41s! [memtester:183732]
+[182643.149967] NMI watchdog: BUG: soft lockup - CPU#189 stuck for 41s! [memtester:183381]
+[182643.149970] NMI watchdog: BUG: soft lockup - CPU#165 stuck for 41s! [memtester:183561]
+[182643.149974] NMI watchdog: BUG: soft lockup - CPU#107 stuck for 41s! [memtester:183787]
+[182643.149976] NMI watchdog: BUG: soft lockup - CPU#150 stuck for 41s! [memtester:183966]
+[182643.149981] NMI watchdog: BUG: soft lockup - CPU#126 stuck for 41s! [memtester:183963]
+[182643.149983] NMI watchdog: BUG: soft lockup - CPU#50 stuck for 42s! [memtester:183311]
+[182643.149985] NMI watchdog: BUG: soft lockup - CPU#184 stuck for 41s! [memtester:183574]
+[182643.149987] NMI watchdog: BUG: soft lockup - CPU#197 stuck for 41s! [memtester:183735]
+[182643.149990] NMI watchdog: BUG: soft lockup - CPU#111 stuck for 41s! [memtester:183338]
+[182643.149992] NMI watchdog: BUG: soft lockup - CPU#192 stuck for 41s! [memtester:183933]
+[182643.149995] NMI watchdog: BUG: soft lockup - CPU#110 stuck for 41s! [memtester:183359]
+[182643.149998] NMI watchdog: BUG: soft lockup - CPU#164 stuck for 41s! [memtester:183702]
+[182643.150001] NMI watchdog: BUG: soft lockup - CPU#193 stuck for 41s! [memtester:183659]
+[182643.150003] NMI watchdog: BUG: soft lockup - CPU#121 stuck for 41s! [memtester:183757]
+[182643.150006] NMI watchdog: BUG: soft lockup - CPU#195 stuck for 41s! [memtester:183699]
+[182643.150009] NMI watchdog: BUG: soft lockup - CPU#199 stuck for 41s! [memtester:183777]
+[182643.150010] NMI watchdog: BUG: soft lockup - CPU#194 stuck for 41s! [memtester:183794]
+[182643.150013] NMI watchdog: BUG: soft lockup - CPU#62 stuck for 42s! [memtester:183784]
+[182643.150015] NMI watchdog: BUG: soft lockup - CPU#169 stuck for 41s! [memtester:183692]
+[182643.150017] NMI watchdog: BUG: soft lockup - CPU#176 stuck for 41s! [memtester:183953]
+[182643.150020] NMI watchdog: BUG: soft lockup - CPU#170 stuck for 41s! [memtester:183943]
+[182643.150022] NMI watchdog: BUG: soft lockup - CPU#119 stuck for 41s! [memtester:183715]
+[182643.150025] NMI watchdog: BUG: soft lockup - CPU#196 stuck for 41s! [memtester:183991]
+[182643.150029] NMI watchdog: BUG: soft lockup - CPU#112 stuck for 41s! [memtester:183551]
+[182643.150031] NMI watchdog: BUG: soft lockup - CPU#167 stuck for 41s! [memtester:183652]
+[182643.150034] NMI watchdog: BUG: soft lockup - CPU#201 stuck for 41s! [memtester:183823]
+[182643.150036] NMI watchdog: BUG: soft lockup - CPU#113 stuck for 41s! [memtester:183544]
+[182643.150038] NMI watchdog: BUG: soft lockup - CPU#175 stuck for 41s! [memtester:183807]
+[182643.150040] NMI watchdog: BUG: soft lockup - CPU#162 stuck for 41s! [memtester:183366]
+[182643.150044] NMI watchdog: BUG: soft lockup - CPU#161 stuck for 41s! [memtester:183620]
+[182643.150046] NMI watchdog: BUG: soft lockup - CPU#1 stuck for 42s! [memtester:183591]
+[182643.150048] NMI watchdog: BUG: soft lockup - CPU#114 stuck for 41s! [memtester:183627]
+[182643.150050] NMI watchdog: BUG: soft lockup - CPU#109 stuck for 41s! [memtester:183630]
+[182643.150052] NMI watchdog: BUG: soft lockup - CPU#173 stuck for 41s! [memtester:183774]
+[182643.150055] NMI watchdog: BUG: soft lockup - CPU#116 stuck for 41s! [memtester:183682]
+[182643.150057] NMI watchdog: BUG: soft lockup - CPU#157 stuck for 41s! [memtester:183244]
+[182643.150059] NMI watchdog: BUG: soft lockup - CPU#118 stuck for 41s! [memtester:183722]
+[182643.150062] NMI watchdog: BUG: soft lockup - CPU#158 stuck for 41s! [memtester:183318]
+[182643.150064] NMI watchdog: BUG: soft lockup - CPU#163 stuck for 41s! [memtester:183742]
+[182643.150068] NMI watchdog: BUG: soft lockup - CPU#190 stuck for 41s! [memtester:183500]
+[182643.150070] NMI watchdog: BUG: soft lockup - CPU#159 stuck for 41s! [memtester:183397]
+[182643.150072] NMI watchdog: BUG: soft lockup - CPU#186 stuck for 41s! [memtester:183669]
+[182643.150074] NMI watchdog: BUG: soft lockup - CPU#191 stuck for 41s! [memtester:183564]
+[182643.150076] NMI watchdog: BUG: soft lockup - CPU#108 stuck for 41s! [memtester:183936]
+[182643.150079] NMI watchdog: BUG: soft lockup - CPU#188 stuck for 41s! [memtester:183745]
+[182643.150081] NMI watchdog: BUG: soft lockup - CPU#183 stuck for 41s! [memtester:183248]
+[182643.150083] NMI watchdog: BUG: soft lockup - CPU#203 stuck for 41s! [memtester:183956]
+[182643.150086] NMI watchdog: BUG: soft lockup - CPU#178 stuck for 41s! [memtester:184062]
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221314] smpboot: Booting Node   0, Processors  #1[    1.236906] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222457] smpboot: Booting Node   0, Processors  #1[    1.238022] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220151] smpboot: Booting Node   0, Processors  #1[    1.235752] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2172490001A_2022-01-17-10-00,revision=0xd000280,"[    0.821934] smpboot: Booting Node   0, Processors  #1[    0.833569] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.822974] smpboot: Booting Node   0, Processors  #1[    0.834602] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.823915] smpboot: Booting Node   0, Processors  #1[    0.835550] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.823011] smpboot: Booting Node   0, Processors  #1[    0.834637] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.821922] smpboot: Booting Node   0, Processors  #1[    0.833556] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.821922] smpboot: Booting Node   0, Processors  #1[    0.833550] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.820646] smpboot: Booting Node   0, Processors  #1[    0.842274] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.823946] smpboot: Booting Node   0, Processors  #1[    0.835588] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.822023] smpboot: Booting Node   0, Processors  #1[    0.833675] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.824020] smpboot: Booting Node   0, Processors  #1[    0.835699] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2192790002V_2022-01-08-00-51,,
+Tencent_LC21A06900030_2022-01-08-02-15,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.219573] smpboot: Booting Node   0, Processors  #1[    1.235217] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.165627] smpboot: Booting Node   0, Processors  #1[    1.191366] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223416] smpboot: Booting Node   0, Processors  #1[    1.239076] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221120] smpboot: Booting Node   0, Processors  #1[    1.236719] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C1790005X_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220674] smpboot: Booting Node   0, Processors  #1[    1.236226] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21A199000C9_2022-01-08-00-56,,
+Tencent_LC21C2290006N_2022-01-13-13-18,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223691] smpboot: Booting Node   0, Processors  #1[    1.239283] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.158151] smpboot: Booting Node   0, Processors  #1[    1.183419] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222058] smpboot: Booting Node   0, Processors  #1[    1.237791] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.111214] smpboot: Booting Node   0, Processors  #1[    1.125507] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21A21900059_2022-01-08-00-53,,
+Tencent_FX21B0500022R_2022-01-08-00-56,,
+Tencent_LC21B2990001Q_2022-01-17-09-55,,
+Tencent_LC21B1590002W_2022-01-07-17-23,,
+Tencent_LC2092600000C_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.221289] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+"
+Tencent_FX21A260008A2_2022-01-08-00-56,,
+Tencent_LC21A1090005K_2021-12-30-14-26,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.832804] smpboot: Booting Node   0, Processors  #1[    0.846690] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21A199000DK_2022-01-08-00-56,revision=0xd0002c1,"[    0.835242] smpboot: Booting Node   0, Processors  #1[    0.849135] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.835015] smpboot: Booting Node   0, Processors  #1[    0.848918] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.835122] smpboot: Booting Node   0, Processors  #1[    0.849009] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.836845] smpboot: Booting Node   0, Processors  #1[    0.850749] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C169000BG_2022-01-17-09-54,,
+Tencent_LC21A24900034_2022-01-17-09-55,,
+Tencent_LC21820900036_2022-01-08-00-54,revision=0xd0002c1,"[    1.374432] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.374434] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.791075] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    0.386362] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.386364] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    3.704392] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    0.361624] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.361626] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    3.679813] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    0.361719] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.361722] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    3.678915] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+"
+Tencent_LC21A1490009M_2022-01-08-02-16,,
+Tencent_LC21B2190000H_2022-01-08-02-12,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.219759] smpboot: Booting Node   0, Processors  #1[    1.235228] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220135] smpboot: Booting Node   0, Processors  #1[    1.235604] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.160464] smpboot: Booting Node   0, Processors  #1[    1.186066] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.225772] smpboot: Booting Node   0, Processors  #1[    1.241232] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222388] smpboot: Booting Node   0, Processors  #1[    1.237871] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2131690002Q_2022-01-07-17-23,revision=0xd000280,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.838639] smpboot: Booting Node   0, Processors  #1[    0.852019] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.843541] smpboot: Booting Node   0, Processors  #1[    0.856908] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.844712] smpboot: Booting Node   0, Processors  #1[    0.858082] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.843428] smpboot: Booting Node   0, Processors  #1[    0.856801] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.838378] smpboot: Booting Node   0, Processors  #1[    0.861592] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.846615] smpboot: Booting Node   0, Processors  #1[    0.859993] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    1.422070] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.422072] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.770998] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    1.397559] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.397561] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.741343] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C2290000H_2022-01-17-09-53,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220162] smpboot: Booting Node   0, Processors  #1[    1.235723] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_FX21C150005ED_2022-01-07-17-23,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.838440] smpboot: Booting Node   0, Processors  #1[    0.852339] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.836866] smpboot: Booting Node   0, Processors  #1[    0.850769] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21A0690011A_2022-01-08-02-16,,
+Tencent_LC21A21900026_2022-01-08-00-56,,
+Tencent_LC21C189000WK_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222452] smpboot: Booting Node   0, Processors  #1[    1.238159] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.167220] smpboot: Booting Node   0, Processors  #1[    1.193398] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222202] smpboot: Booting Node   0, Processors  #1[    1.237806] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC2152580000G_2022-01-08-02-16,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.225436] smpboot: Booting Node   0, Processors  #1[    1.241026] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C2190002D_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221708] smpboot: Booting Node   0, Processors  #1[    1.237210] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.163502] smpboot: Booting Node   0, Processors  #1[    1.188909] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.220903] smpboot: Booting Node   0, Processors  #1[    1.236455] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221777] smpboot: Booting Node   0, Processors  #1[    1.237289] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221433] smpboot: Booting Node   0, Processors  #1[    1.236905] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C129000A9_2022-01-08-02-16,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223902] smpboot: Booting Node   0, Processors  #1[    1.239674] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21B049000G2_2022-01-07-17-23,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.846723] smpboot: Booting Node   0, Processors  #1[    0.867025] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.852979] smpboot: Booting Node   0, Processors  #1[    0.882879] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.848030] smpboot: Booting Node   0, Processors  #1[    0.868246] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21405900006_2022-01-17-09-55,revision=0xd000250,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.844804] smpboot: Booting Node   0, Processors  #1[    0.858292] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.843093] smpboot: Booting Node   0, Processors  #1[    0.856574] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.844498] smpboot: Booting Node   0, Processors  #1[    0.857984] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21A13900003_2022-01-08-02-16,,
+Tencent_LC21B2490007N_2022-01-08-02-16,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.224787] smpboot: Booting Node   0, Processors  #1[    1.240776] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21B0390007Y_2022-01-17-09-55,,
+Tencent_FX21B12000446_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.137555] smpboot: Booting Node   0, Processors  #1[    1.152630] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21B29900015_2022-01-07-17-18,,
+Tencent_LC21B2190001Y_2022-01-17-09-50,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223816] smpboot: Booting Node   0, Processors  #1[    1.239593] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.164660] smpboot: Booting Node   0, Processors  #1[    1.190502] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.223368] smpboot: Booting Node   0, Processors  #1[    1.239043] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21C15800056_2022-01-17-09-55,revision=0xd0002c1,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.836661] smpboot: Booting Node   0, Processors  #1[    0.850569] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.835267] smpboot: Booting Node   0, Processors  #1[    0.858983] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.840475] smpboot: Booting Node   0, Processors  #1[    0.854407] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC21523900016_2022-01-17-09-55,revision=0xd000250,"[    1.386037] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.386039] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.673462] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    1.386297] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.386299] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.675595] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    1.399442] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.399444] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.701700] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    1.402377] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.402379] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.687741] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    1.389325] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.389327] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.676752] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    1.386399] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    1.386401] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    5.669562] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+"
+Tencent_LC2182890000L_2022-01-08-00-56,revision=0xd0002c1,"[    2.792454] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    2.792456] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    8.354298] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+"
+Tencent_LC2192090009A_2022-01-17-09-53,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222379] smpboot: Booting Node   0, Processors  #1[    1.237957] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.221924] smpboot: Booting Node   0, Processors  #1[    1.237495] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.165992] smpboot: Booting Node   0, Processors  #1[    1.192069] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.222492] smpboot: Booting Node   0, Processors  #1[    1.238074] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_LC20A0400001B_2022-01-17-09-55,revision=0x7000020,"[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.180338] NMI watchdog: Disabling watchdog on nohz_full cores by default
+[    1.188704] smpboot: Booting Node   0, Processors  #1[    1.204268] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.000000] ACPI: X2APIC_NMI (uid[0xffffffff] high edge lint[0x1])
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    1.182651] NMI watchdog: Disabling watchdog on nohz_full cores by default
+[    1.191011] smpboot: Booting Node   0, Processors  #1[    1.206554] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+"
+Tencent_FX21B05000227_2021-12-29-21-43,,

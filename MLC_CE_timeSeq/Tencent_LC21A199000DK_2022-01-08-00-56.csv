@@ -1,0 +1,875 @@
+2021-12-18T10:37:20
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=1, IndicatedNo=53902 "
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0x8c20004000101135, IA32_MCi_ADDR: 0x0000001522d719d0, IA32_MCi_MISC: 0x0000000004f72285, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=2, IndicatedNo=30307 "
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0xcc20008000101135, IA32_MCi_ADDR: 0x0000003f7ffcfac8, IA32_MCi_MISC: 0x0000000004f82285, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=1, IndicatedNo=53902 "
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x1522d719d0, system Address located space 12 "
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x22d719d0 
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x1 in Skt 0x0 is 0x407c3 
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x4080000000 
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x1 "
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x1 
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:07,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:08,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:08+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:08,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 1 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x2 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 0 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x0,ChannelId is 0x1 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x40, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 1 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x4080000000 for Tad 1 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x80000000 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0x945ae2d0 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x1 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=3, IndicatedNo=32433 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0x8c20004000101179, IA32_MCi_ADDR: 0x0000002eeb7c49c0, IA32_MCi_MISC: 0x0000000000ff4285, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x1,TranslatedAddress->PhysicalRankId is 0x1,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x5a, TranslatedAddress->Row is 0x9515,TranslatedAddress->Bank is 0x3, TranslatedAddress->BankGroup is 0x3, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM010 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=4, IndicatedNo=35159 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0x8c20004000101135, IA32_MCi_ADDR: 0x0000007f5ce0e9e0, IA32_MCi_MISC: 0x0000000000f12285, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=5, IndicatedNo=5576 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0x8c20004000101135, IA32_MCi_ADDR: 0x0000003f3932fef0, IA32_MCi_MISC: 0x0000000000f42485, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=6, IndicatedNo=9382 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0x8c20004000101179, IA32_MCi_ADDR: 0x00000063df1b6cc0, IA32_MCi_MISC: 0x0000000000fc4285, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=2, IndicatedNo=30307 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=7, IndicatedNo=35298 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0x8c20004000101179, IA32_MCi_ADDR: 0x00000066ae3842c0, IA32_MCi_MISC: 0x0000000000f84285, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x3f7ffcfac8, system Address located space 12 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x7ffcfac8 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x1 in Skt 0x0 is 0x407c3 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x4080000000 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x2 "
+2021-12-18T10:37:08,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x2 
+2021-12-18T10:37:09,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:09+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:09,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 1 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x2 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 0 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x0,ChannelId is 0x1 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=8, IndicatedNo=12170 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0xcc20010000101179, IA32_MCi_ADDR: 0x00000000765d15c0, IA32_MCi_MISC: 0x0000000000f04285, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x40, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 1 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x4080000000 for Tad 1 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=9, IndicatedNo=5904 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0xcc40014000100189, IA32_MCi_ADDR: 0x00000000765b43c0, IA32_MCi_MISC: 0x0000000000f07485, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x80000000 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xdfff9ec8 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=10, IndicatedNo=8580 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0x8c40004000100179, IA32_MCi_ADDR: 0x0000004e405ed1c0, IA32_MCi_MISC: 0x0000000000f34285, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x0 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x0,TranslatedAddress->PhysicalRankId is 0x0,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x3d1, TranslatedAddress->Row is 0x1f7ff,TranslatedAddress->Bank is 0x0, TranslatedAddress->BankGroup is 0x0, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM010 
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:09,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=3, IndicatedNo=32433 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=11, IndicatedNo=42199 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0x8c40004000100135, IA32_MCi_ADDR: 0x0000002aa78948e0, IA32_MCi_MISC: 0x0000000004f62285, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x2eeb7c49c0, system Address located space 12 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0xeb7c49c0 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=12, IndicatedNo=36164 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0xcc4000c000100135, IA32_MCi_ADDR: 0x000000007705d1c8, IA32_MCi_MISC: 0x0000000000f02485, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=13, IndicatedNo=62733 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0x8c40004000100135, IA32_MCi_ADDR: 0x0000000001f679f0, IA32_MCi_MISC: 0x0000000004f12285, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=14, IndicatedNo=53981 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0xcc40008000100151, IA32_MCi_ADDR: 0x00000000765d95c0, IA32_MCi_MISC: 0x0000000000f06485, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x1 in Skt 0x0 is 0x407c3 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x4080000000 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x1 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x1 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=15, IndicatedNo=50673 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0xcc40008000100151, IA32_MCi_ADDR: 0x00000000010d85c0, IA32_MCi_MISC: 0x0000000004f26485, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 1 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x1 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x1 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x12 
+2021-12-18T10:37:10,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose data from bios, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=16, IndicatedNo=14032 "
+2021-12-18T10:37:11,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:11+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:11,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:11+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:11,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:11,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING]Get Diagnose MCA data from bios, ReqLen=198:SocketID: 0, CoreID: 27,  BankNo: 3, MSR_MCG_CONTAIN: 0x0000000000000001, IA32_MCG_STATUS: 0x0000000000000000,  IA32_MCG_CAP: 0x000000000f000c1c, MCA_ERROR_CONTROL: 0x0000000000000000, IA32_MCi_CTL: 0x000000000000003f, IA32_MCi_CTL2: 0x0000000540000001, IA32_MCi_STATUS: 0xcc4000c000100151, IA32_MCi_ADDR: 0x00000000765d95c0, IA32_MCi_MISC: 0x0000000000f06485, THREAD_SMI_ERR_SRC: 0x0000000000000000, CORE_SMI_ERR_SRC: 0x0000000000000008, UNCORE_SMI_ERR_SRC: 0x0000000000000000,IerrLoggingReg: 0x00000000, McerrLoggingReg: 0x00000000,EMCA_CORE_CSMI_LOG: 0x20000000,EMCA_CORE_CSMI_LOG1: 0x00000000,EMCA_CORE_MSMI_LOG: 0x00000000,EMCA_CORE_MSMI_LOG1: 0x00000000,MCA_ERR_SRC_LOG: 0x00000000, "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 860 WARNING] RETRY_RD_CH_NUM:0x0, RETRY_RD_SET2_CH_NUM: 0x0,  RETRY_RD_ERR_LOG: 0x00000000, RETRY_RD_ERR_LOG_MISC: 0x00000000, RETRY_RD_ERR_LOG_PARITY: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_LOG_ADDRESS2: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N0: 0x00000000,RETRY_RD_ERR_LOG_ADDRESS3N1: 0x00000000, RETRY_RD_ERR_SET2_LOG: 0x00000000,  RETRY_RD_ERR_SET2_LOG_MISC: 0x00000000, RETRY_RD_ERR_SET2_LOG_PARITY: 0x00000000,RETRY_RD_ERR_SET2_LOG_ADDRESS1: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS2: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N0: 0x00000000, RETRY_RD_ERR_SET2_LOG_ADDRESS3N1: 0x00000000 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x12, H0TgtRt0.Data 0x3232 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 3 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x3,ChannelId is 0x0 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x40, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 1 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x4080000000 for Tad 1 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x80000000 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xcd6f88c0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x0,TranslatedAddress->PhysicalRankId is 0x0,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x110, TranslatedAddress->Row is 0x1735f,TranslatedAddress->Bank is 0x3, TranslatedAddress->BankGroup is 0x0, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM060 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=4, IndicatedNo=35159 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x7f5ce0e9e0, system Address located space 12 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x5ce0e9e0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x1 is 0x807c3 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x8080000000 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x1 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x1 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 1, SadIndex 0 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x1 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 1, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 1 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x1, ControllerId is 0x1,ChannelId is 0x0 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x80, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x8080000000 for Tad 0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x80000000 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xdb9c1ce0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x0,TranslatedAddress->PhysicalRankId is 0x0,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x394, TranslatedAddress->Row is 0x1f6e0,TranslatedAddress->Bank is 0x0, TranslatedAddress->BankGroup is 0x3, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM120 
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:11,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:12,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:12+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:12,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=5, IndicatedNo=5576 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x3f3932fef0, system Address located space 12 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x3932fef0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x1 in Skt 0x0 is 0x407c3 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x4080000000 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x6 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x6 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 1 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x1 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 1 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x1,ChannelId is 0x0 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x40, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 1 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x4080000000 for Tad 1 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x80000000 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xd7265ff0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x0,TranslatedAddress->PhysicalRankId is 0x0,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x3fe, TranslatedAddress->Row is 0x1f5cc,TranslatedAddress->Bank is 0x2, TranslatedAddress->BankGroup is 0x2, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM020 
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:12,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:13,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:13+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:13,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=6, IndicatedNo=9382 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x63df1b6cc0, system Address located space 12 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0xdf1b6cc0 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x1 is 0x807c3 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x8080000000 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x4 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x4 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 1, SadIndex 0 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x1 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x1 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x12 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 1, Cha is 0x12, H0TgtRt0.Data 0x3232 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 3 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 0 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x1, ControllerId is 0x3,ChannelId is 0x0 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x80, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x8080000000 for Tad 0 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x80000000 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0x6be36dc0 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x1 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x1,TranslatedAddress->PhysicalRankId is 0x1,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x1b8, TranslatedAddress->Row is 0x12afe,TranslatedAddress->Bank is 0x3, TranslatedAddress->BankGroup is 0x2, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM160 
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:13,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:14,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:14+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:14,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=7, IndicatedNo=35298 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x66ae3842c0, system Address located space 12 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0xae3842c0 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x1 is 0x807c3 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x8080000000 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x2 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x2 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 1, SadIndex 0 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x3 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x1 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x12 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 1, Cha is 0x12, H0TgtRt0.Data 0x3232 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 3 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x1, ControllerId is 0x3,ChannelId is 0x1 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x80, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x8080000000 for Tad 0 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x80000000 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xc5c708c0 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x0 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x0,TranslatedAddress->PhysicalRankId is 0x0,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x110, TranslatedAddress->Row is 0x13176,TranslatedAddress->Bank is 0x3, TranslatedAddress->BankGroup is 0x1, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM170 
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=8, IndicatedNo=12170 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x765d15c0, system Address located space 2 "
+2021-12-18T10:37:14,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x765d15c0 
+2021-12-18T10:37:15,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:15+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:15,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x5 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x5 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 0 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x0,ChannelId is 0x0 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xecba3c0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x1 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x1,TranslatedAddress->PhysicalRankId is 0x1,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x70, TranslatedAddress->Row is 0x3b7,TranslatedAddress->Bank is 0x0, TranslatedAddress->BankGroup is 0x3, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM000 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=9, IndicatedNo=5904 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x765b43c0, system Address located space 2 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x765b43c0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x3 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x3 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 0 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x3 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x1 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x12 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x12, H0TgtRt0.Data 0x3232 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 3 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x3,ChannelId is 0x1 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xecb68c0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x1 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x1,TranslatedAddress->PhysicalRankId is 0x1,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x118, TranslatedAddress->Row is 0x3b6,TranslatedAddress->Bank is 0x0, TranslatedAddress->BankGroup is 0x3, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:15,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM070 
+2021-12-18T10:37:16,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:16+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:16,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:16+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:16,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:16,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=10, IndicatedNo=8580 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x4e405ed1c0, system Address located space 12 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x405ed1c0 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x1 is 0x807c3 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x8080000000 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x1 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x1 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 1, SadIndex 0 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x3 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 1, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 1 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x1, ControllerId is 0x1,ChannelId is 0x1 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x80, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x8080000000 for Tad 0 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x80000000 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xb80bdac0 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x0 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x0,TranslatedAddress->PhysicalRankId is 0x0,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x358, TranslatedAddress->Row is 0x5e07,TranslatedAddress->Bank is 0x1, TranslatedAddress->BankGroup is 0x1, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM130 
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:16,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=11, IndicatedNo=42199 "
+2021-12-18T10:37:17,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:17+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:17,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x2aa78948e0, system Address located space 12 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0xa78948e0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x1 in Skt 0x0 is 0x407c3 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x4080000000 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x0 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 1 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x3 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x1,ChannelId is 0x1 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x40, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x4080000000 for Tad 1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x80000000 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0x44f128e0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x1,TranslatedAddress->PhysicalRankId is 0x1,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x114, TranslatedAddress->Row is 0x1613a,TranslatedAddress->Bank is 0x3, TranslatedAddress->BankGroup is 0x2, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM030 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=12, IndicatedNo=36164 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x7705d1c8, system Address located space 2 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x7705d1c8 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x1 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 0 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x2 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x0,ChannelId is 0x1 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xee0bac8 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x1 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x1,TranslatedAddress->PhysicalRankId is 0x1,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:17,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:18,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:18+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:18,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:18+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:18,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:18,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x351, TranslatedAddress->Row is 0x3b9,TranslatedAddress->Bank is 0x1, TranslatedAddress->BankGroup is 0x2, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM010 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=13, IndicatedNo=62733 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x1f679f0, system Address located space 2 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x1f679f0 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x1 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x1 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 0 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x3 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x1 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x12 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x12, H0TgtRt0.Data 0x3232 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 3 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x3,ChannelId is 0x1 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x0 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0x3ecef0 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x0 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x0,TranslatedAddress->PhysicalRankId is 0x0,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x1de, TranslatedAddress->Row is 0xd,TranslatedAddress->Bank is 0x3, TranslatedAddress->BankGroup is 0x2, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM070 
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:18,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:19,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:19+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:19,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=14, IndicatedNo=53981 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x765d95c0, system Address located space 2 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x765d95c0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x5 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x5 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 0 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x2 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x0,ChannelId is 0x1 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xecbb3c0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x1 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x1,TranslatedAddress->PhysicalRankId is 0x1,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x270, TranslatedAddress->Row is 0x3b7,TranslatedAddress->Bank is 0x0, TranslatedAddress->BankGroup is 0x3, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM010 
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:19,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:20,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:20+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:20,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:20+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
+2021-12-18T10:37:20,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:20,/onekeylog/log/selelist.csv,"['Processor CPU0_Status', '', 'Asserted']"
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=15, IndicatedNo=50673 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x10d85c0, system Address located space 2 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x10d85c0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x5 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x5 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 0 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x3 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x12 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x12, H0TgtRt0.Data 0x3232 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 3 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x3,ChannelId is 0x1 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0x21b1c0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x1,TranslatedAddress->PhysicalRankId is 0x1,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x230, TranslatedAddress->Row is 0xb,TranslatedAddress->Bank is 0x0, TranslatedAddress->BankGroup is 0x0, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM070 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]InspurBiosDiagnoseSelAnaly, DateHeader: Domain=0, Submodule=0, InfoSrc=0, SMISeriaNo=16, IndicatedNo=14032 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 WARNING]bank：2,3,4,6, record cpu "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]SystemAddressToDimmAddress: SystemAddress = 0x765d95c0, system Address located space 2 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: Forward Address Translation start for 0x765d95c0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: ChaDramRule.Data for SadIndex 0x0 in Skt 0x0 is 0xfc3 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: SadLimit is 0x100000000 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave mode: 0x1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetInterleaveListIndex: Interleave Index [8,9,10]: 0x5 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: InterleaveListIndex is 0x5 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: InterleaveListCfg.Data: 0x88888888 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetTargetId: TgtId 0x0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for MC 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSad: McRouteTableType is 0x1, Skt is 0, SadIndex 0 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: GetIndexToRouteTable for RouteTableType:0x1 and targetHalf:0x0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetIndexToRouteTable: RouteTableIndex: 0x2 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Clustering Sectioning is enabled.  NumClusters = 0x2 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Sectioning is enabled 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cluster in Sectioning mode = 0x0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetChaForSystemAddress:Cha = 0x0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: Skt is 0, Cha is 0x0, H0TgtRt0.Data 0x1010 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcTargetId: McTgt is 0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: GetRouteTableType for Ch 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetRouteTableType: RouteTable is of type: 0x1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】GetMcChId: McChId is 1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateSad is successful 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: SocketId is 0x0, ControllerId is 0x0,ChannelId is 0x1 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: MeshN1TadRd.Bits.addresslimit:0x0, MeshN0TadRd.Bits.addresslimit:0x1f "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: PrevSad2TadLimit is 0x0 for Tad 0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: Sad2TadLimit is 0x80000000 for Tad 0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TadOffset is 0x0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtInterleaveBit:0xb , ChInterleaveBit:0x8 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad: TgtWays:0x2, ChWays:0x4 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateTad ChannelAddress is 0xecbb3c0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateTAD is successful 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RIRWaynessLimit.Data is 0x9000007e 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirLimit is 0x800000000 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: McMtr.Bits.close_pg is 0x0. PageShift = 0xd 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirWays = 0x2. RankInterleave = 0x1 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: RirOffset is 0x0 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRir: TranslatedAddress->ChipSelect is 0x1,TranslatedAddress->PhysicalRankId is 0x1,TranslatedAddress->DimmSlot is 0x0 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRir is successful 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateRankAddress: TranslatedAddress->Col is 0x270, TranslatedAddress->Row is 0x3b7,TranslatedAddress->Bank is 0x0, TranslatedAddress->BankGroup is 0x3, TranslatedAddress->ChipId is 0x0 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】TranslateSystemAddress: TranslateRankAddress is successful 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]【DimmAddressDecode】SystemAddressToDimmAddress: Forward Address Translation Successful!! 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,InspurMcaDiagnose:[3284 : 3293 INFO]==========SystemAddressToDimmAddress: ErrorDeviceLocation= DIMM010 
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL FROM BMC: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40 "
+2021-12-18T10:37:20,/onekeylog/log/maintenance.log,"IPMIMain:[805 : 859 INFO]BIOS SEL: SensorType=0x07, SensorNum=0xFA, EvtDirType=0x6F, Data:0xAC, 0x04, 0x40.PSGood:1 "
+2021-12-18T10:37:21,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-18T10:37:20+08:00|CPU|Assert|Info|07000C00|CPU0_Status CPU Correctable Machine Check Error CPU-0 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "

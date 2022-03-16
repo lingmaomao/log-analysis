@@ -7,8 +7,7 @@ import subprocess
 import time
 import datetime
 
-logs=["/onekeylog/log/idl.log", "/onekeylog/log/selelist.csv", "/onekeylog/log/maintenance.log"]
-#logs=["idl.log", "maintenance.log"]
+logs=["/onekeylog/log/idl.log", "/onekeylog/log/selelist.csv", "/onekeylog/log/maintenance.log", "/onekeylog/runningdata/var/log/inspur_debug.log"]
 converted_files_dir ='/home/maomao/LOG-analysis/convert_logs/'
 #logs_dir="/home/maomao/LOG-analysis/Error_logs/"
 logs_dir="/home/maomao/LOG-analysis/Error_logs/Logs/"
@@ -38,6 +37,8 @@ def generateLog(log_dir):
     print ("TimeStamp: ", time_stamp)
     csv_writer.writerow([time_stamp])
     #2022-01-08T09:25:57
+
+    #inspur_debug.log, 2021-12-17T00:39:14
 
     Today= datetime.datetime.strptime(time_stamp,'%Y-%m-%dT%H:%M:%S')
     #Today= datetime.datetime.today()
@@ -87,6 +88,10 @@ def generateLog(log_dir):
                 continue
  
             datas=str(latency, 'utf-8')
+            if (l==3):
+                print("inspur_datas: ", datas)
+                exit()
+
             print("datas: ", datas)
             datas.rstrip('\n')
             print("datas.rstrip(): ", datas)
@@ -132,8 +137,9 @@ def generateLog(log_dir):
                     csv_writer.writerow([time_stamp, logs[l], Diagnose_info])
          
                 #maintenance.log
-                if l == 2:
+                if l==2 or l==3:
                     #<182>  2021-11-21T09:51:18.650000+08:00 FX21B050001PD inspur_component_app:  [2194 : 2194 INFO]prepare : read pcie asset info from EEPROM
+                    #<170>  2021-12-17T00:39:14.043715+08:00 LN2172410001F inspur_monitor_app:  [1159 : 1953 CRITICAL]Write power status to EEPROM. Status=0
                     line_slice=data[p].split('\n')
                     print("line_slice:", line_slice)
                     print("line_slice.len:", len(line_slice))
@@ -160,6 +166,10 @@ def generateLog(log_dir):
                         InspurDiagnose=data_slice[4]
                         Diagnose_info=InspurDiagnose+Diagnose_info
                         csv_writer.writerow([time_stamp,logs[l], Diagnose_info])
+
+                #inspur.log
+                #if l == 3:
+                #<170>  2021-12-17T00:39:14.043715+08:00 LN2172410001F inspur_monitor_app:  [1159 : 1953 CRITICAL]Write power status to EEPROM. Status=0
 
 #cmd='./test-run1.sh '+str(empu_num[l]) + ' ' + str(batch[k1])
 #grep "timestamp" converted_Tencent_FX21B050001PD_2022-01-17-09-55_RegRawData_1.json | awk '{print $2}'

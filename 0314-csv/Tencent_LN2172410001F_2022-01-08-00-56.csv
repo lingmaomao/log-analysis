@@ -1,3 +1,0 @@
-2021-12-10T02:21:21
-2021-12-10T02:21:21,/onekeylog/log/idl.log,"InspurDiagnose:|2021-12-10T02:21:21+08:00|CPU|Assert|Info|07010C00|CPU1_Status CPU Correctable Machine Check Error CPU-1 Configuration Error: BankType=MLC, ErrorType=Micro Arch, Severity=Uncorrectable Error| "
-2021-12-10T02:21:21,/onekeylog/log/selelist.csv,"['Processor CPU1_Status', '', 'Asserted']"

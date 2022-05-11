@@ -1,0 +1,10 @@
+{
+    "timeSeq": [
+        "[    7.509275] Kernel panic - not syncing: System is deadlocked on memory",
+        "[    7.647275] ---[ end Kernel panic - not syncing: System is deadlocked on memory ]---",
+        "[    7.486096] Kernel panic - not syncing: System is deadlocked on memory",
+        "[    7.612095] ---[ end Kernel panic - not syncing: System is deadlocked on memory ]---",
+        "[  189.524022] Kernel panic - not syncing: Out of memory and no killable processes...",
+        "[   83.060154] Kernel panic - not syncing: Out of memory and no killable processes..."
+    ]
+}
